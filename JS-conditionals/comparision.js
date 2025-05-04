@@ -12,6 +12,16 @@
 // console.log(10 <= 10)
 // console.log(10 == 10)
 // console.log(10 === '10')
-console.log(10 != '10')
+// console.log(10 != '10')
+// --------
+// const applePrice = 10;
+// const tomatoPrice = 20;
+// // console.log(applePrice >= tomatoPrice); 
+// console.log(applePrice <= tomatoPrice); 
+// ---------------
+// console.log(30 == '30')
+// console.log(30 === '30')
+console.log(30 != '30')
+console.log(30 !== '30')
 
 
