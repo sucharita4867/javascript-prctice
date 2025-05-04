@@ -20,8 +20,14 @@
 //       i++;
 // }
 // ============3
-let n = 0;
-while( n <= 10) {
-      console.log(n);
-      n++;
+// let n = 0;
+// while( n <= 10) {
+//       console.log(n);
+//       n++;
+// }
+// ==============4
+let i = 0;
+while (i <= 20){
+      console.log(i);
+      i++;
 }
