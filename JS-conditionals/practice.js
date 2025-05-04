@@ -1,8 +1,9 @@
-let n = 0 ;
-while(n < 10 ){
-      console.log(n);
-      n++;
-      if(n % 2 === 0){
-            console.log('even number :' , n)
+// chaking even and odd numbers
+{let num = 21;
+      if (num % 2 === 0) {
+            console.log('even number :' , num)
+      }
+      else if (num % 2 !== 0){
+            console.log('odd numbers ;', num)
       }
 }
