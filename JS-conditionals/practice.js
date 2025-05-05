@@ -1,4 +1,4 @@
-// chaking even and odd numbers
+// checking even and odd numbers
 // task 1
 // {let num = 21;
 //       if (num % 2 === 0) {
@@ -9,6 +9,7 @@
 //       }
 // }
 // ---------------------------------
+// checking positive , negative , or zero number
 // task 2
 // {let num = -100;
 //       if(num > 0){
@@ -22,6 +23,7 @@
 //       }
 // }
 // --------------------------------------------
+// compare two Number
 // task 3
 // {let num1 = 4 ;
 //  let num2 = 20 ;
@@ -34,5 +36,14 @@
 //       else{
 //             console.log('equal :', num1 )
 //       }
-
+// }
+// -------------------------------------------
+// task 5
+// {let year = 2024;
+//       if(year % 4 == 0){
+//             console.log('leap year :', year)
+//       }
+//       else{
+//             console.log('not leap year :', year)
+//       }
 // }
