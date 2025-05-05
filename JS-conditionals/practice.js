@@ -58,22 +58,52 @@
 //       }
 // }
 // task 
-let mark = 98 ;
-if (mark < 50){
-      console.log('Disqualified')
-}
-else if(mark > 50 && mark < 60){
-      console.log('passed : C', mark)
-}
-else if(mark > 60 && mark < 70){
-      console.log('passed : B' , mark)
-}
-else if(mark > 70 && mark < 80){
-      console.log('passed : B1', mark)
-}
-else if(mark > 80 && mark < 90){
-      console.log('passed : A', mark)
-}
-else if(mark > 90){
-      console.log('passed : A1', mark)
-}
+// let mark = 93 ;
+// if (mark < 50){
+//       console.log('Disqualified')
+// }
+// else if(mark > 50 && mark < 60){
+//       console.log('passed : C', mark)
+// }
+// else if(mark > 60 && mark < 70){
+//       console.log('passed : B' , mark)
+// }
+// else if(mark > 70 && mark < 80){
+//       console.log('passed : B1', mark)
+// }
+// else if(mark > 80 && mark < 90){
+//       console.log('passed : A', mark)
+// }
+// else if(mark > 90){
+//       console.log('passed : A1', mark)
+// }
+// else{
+//       console.log('fail')
+// }
+// ---------------------------
+// task 7
+// let num = 66;
+// if (num % 5 === 0 && num % 11 === 0){
+//       console.log('5 & 11 diye vag kora jai ', num)
+// }
+// else{
+//       console.log('5 & 11 diye vag kora jai na' , num)
+// }
+// ---------------------------------
+// task 8
+// {let num1 = 9 ;
+// let num2 = 15 ;
+// let num3 = 74 ;
+// if(num1 === num2 && num2 === num3){
+//       console.log('equal')
+// }
+// else if (num1 >= num2){
+//       console.log('big : num1', num1)
+// }
+// else if(num2 >= num3){
+//       console.log('big : num2', num2)
+// }
+// else {
+//       console.log('big : num3', num3)
+// }
+// }
