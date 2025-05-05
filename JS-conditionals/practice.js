@@ -47,3 +47,33 @@
 //             console.log('not leap year :', year)
 //       }
 // }
+// ----------------------------------------
+// task 6
+// {let mark = 100 ;
+//       if(mark <= 40){
+//             console.log('fail ;', mark)
+//       }
+//       else if(mark >= 40){
+//             console.log('passed :', mark)
+//       }
+// }
+// task 
+let mark = 98 ;
+if (mark < 50){
+      console.log('Disqualified')
+}
+else if(mark > 50 && mark < 60){
+      console.log('passed : C', mark)
+}
+else if(mark > 60 && mark < 70){
+      console.log('passed : B' , mark)
+}
+else if(mark > 70 && mark < 80){
+      console.log('passed : B1', mark)
+}
+else if(mark > 80 && mark < 90){
+      console.log('passed : A', mark)
+}
+else if(mark > 90){
+      console.log('passed : A1', mark)
+}
