@@ -15,8 +15,13 @@
 //       console.log('negative :', num)
 // }
 // task 3
-// let num = 2;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++===3
-// if()
+// let number = 0;
+// if (number === 0){
+//       console.log('it is zero', number);
+// }
+// else {
+//       console.log('it is not zero' , number);
+// }
 // task 4
 // let age = 9 ;
 // if(age > 18) {
@@ -42,9 +47,14 @@
 // else if (num1 !== num2){
 //       console.log('number not equal')
 // }
-// task 7++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++7
-// let latter = r ;
-// if()
+// task 7
+// let latter = 'k' ;
+// if(latter === 'a'){
+//       console.log("it is'a'", latter)
+// }
+// else{
+//       console.log("it is not 'a'", latter)
+// }
 // task 8
 // let temperature = 80 ;
 // if (temperature > 30 ){
@@ -61,3 +71,22 @@
 // else if(age < 18){
 //       console.log('you cannot vote', age)
 // }
+// task 1
+// let num = 51;
+// if (num % 3 === 0){
+//       console.log('3 diye vag kora jai', num);
+// }
+// else{
+//       console.log('3 diye vag kora jai na', num);
+// }
+// task 11
+let latter = 'a' ;
+// let latter2 = 'E' ;
+// console.log(latter.toUpperCase())
+// console.log(latter2.toLowerCase())
+if(latter === toUpperCase ){
+      console.log('boro hater ache')
+}
+else if(latter === toLowercase){
+      console.log('choto hater acge')
+}
