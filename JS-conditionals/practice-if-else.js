@@ -80,13 +80,12 @@
 //       console.log('3 diye vag kora jai na', num);
 // }
 // task 11
-let latter = 'a' ;
-// let latter2 = 'E' ;
-// console.log(latter.toUpperCase())
-// console.log(latter2.toLowerCase())
-if(latter === toUpperCase ){
-      console.log('boro hater ache')
-}
-else if(latter === toLowercase){
-      console.log('choto hater acge')
-}
+// let latter = 'L' ;
+// const update1 = latter.toUpperCase()
+// const update2 = latter.toLowerCase()
+// if(latter === update1 ){
+//       console.log('boro hater ache :', latter)
+// }
+// else if(latter === update2){
+//       console.log('choto hater ache :', latter)
+// }

@@ -26,8 +26,9 @@
 //       n++;
 // }
 // ==============4
-let i = 0;
-while (i <= 20){
-      console.log(i);
-      i++;
+// let i = 0;
+let numbers = [5, 10, 15, 20, 25] ;
+while (numbers <= 20){
+      console.log(numbers);
+      numbers++;
 }

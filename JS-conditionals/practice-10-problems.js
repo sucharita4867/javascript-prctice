@@ -48,3 +48,38 @@
 // else{
 //       console.log('This number is not equal')
 // }
+// task 7++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// let input = 'a';
+// // let vowel = 'a, e, i, o, u';
+// if(input  ){
+//       console.log('this is vowel', vowel)
+// }
+// else{
+//       console.log('this is consonants')
+// }
+// task 8
+// let latter1 = 'SUCHO' ;
+//  const update1 = latter1.toUpperCase()
+// const update2 = latter1.toLowerCase()
+// if (latter1 === update1){
+//       console.log('boro hater :' ,latter1)
+// }
+// else if (latter1 === update2) {
+//       console.log('choto hater :', latter1)
+// }
+// task 9
+// let number = 9 ;
+// if(number % 3 === 0){
+//       console.log('3 diye vag kora jai',number)
+// }
+// else{
+//       console.log('3 diye vag kora jai na', number)
+// }
+// task 10 
+// let temperature = 200 ;
+// if(temperature > 30){
+//       console.log('temperature is hot')
+// }
+// else if(temperature < 30){
+//       console.log('temperature is cold')
+// }

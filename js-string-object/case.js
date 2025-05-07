@@ -5,22 +5,29 @@ const school = 'Mohon Pur K. K. G. C. Institiution';
 // console.log(school.toUpperCase());
 
 
-// const subject = 'Geography';
-// const book = 'geography';
-// if(subject.toUpperCase() === book.toUpperCase()) {
-//       console.log('exam hole purai fatai felbo');
-// }
-// else{
-//       console.log('exam hole bose bose ghumabo');
-// }
+let subject = 'Geography';
+let book = 'geography';
+
+// subject = subject.toUpperCase()
+// book = book.toUpperCase()
 
 
-const drink = 'water ';
-const liquid ='  water';
-
-if (drink.trimEnd() === liquid.trimStart()){
-      console.log('ami jal khabo');
+if(subject.toLowerCase() === book.toLowerCase()) {
+      console.log('exam hole purai fatai felbo');
+      console.log(subject)
+      console.log(book)
 }
 else{
-      console.log('na ami water khabo na');
+      console.log('exam hole bose bose ghumabo');
 }
+
+
+// const drink = 'water ';
+// const liquid ='  water';
+
+// if (drink.trimEnd() === liquid.trimStart()){
+//       console.log('ami jal khabo');
+// }
+// else{
+//       console.log('na ami water khabo na');
+// }
