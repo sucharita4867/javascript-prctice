@@ -53,3 +53,42 @@
       //       console.log(c , 'is greatest')
       // }
 }
+// task 4
+{
+      // let num = 17 ;
+      // if(num % 2 == 0){
+      //       console.log('even :', num)
+      // }
+      // else {
+      //       console.log('odd :', num)
+      // }
+}
+// task 7
+{
+      // let marks = 10 ;
+      // if(marks > 80){
+      //       console.log('80+ = A :', marks)
+      // }
+      // else if(marks > 70){
+      //       console.log('70+ = B :', marks)
+      // }
+      // else if(marks > 60){
+      //       console.log('60+ = C :', marks)
+      // }
+      // else {
+      //       console.log('fail :', marks)
+      // }
+}
+// task 8
+{
+      // let age = 12 ;
+      // if(age > 18){
+      //       console.log('eligible to vote :', age)
+      // }
+      // else if(age < 18){
+      //       console.log('not eligible to vote :', age)
+      // }
+      // else{
+      //       console.log('error :', age)
+      // }
+}
