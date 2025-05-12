@@ -106,11 +106,24 @@
 // --------------------------12|05|2025--------------------------------
 // task 1
 {
-      let num = 92 ;
-      if(num % 2 === 1){
-            console.log('odd :', num)
-      }
-      else if(num % 2 === 0){
-            console.log('even :', num)
-      }
+      // let num = 92 ;
+      // if(num % 2 === 1){
+      //       console.log('odd :', num)
+      // }
+      // else if(num % 2 === 0){
+      //       console.log('even :', num)
+      // }
+}
+// task 2
+{
+      // let number = 0 ;
+      // if (number > 0){
+      //       console.log('positive :', number)
+      // }
+      // else if(number < 0){
+      //       console.log('negative :', number)
+      // }
+      // else{
+      //       console.log('zero :', number)
+      // }
 }
