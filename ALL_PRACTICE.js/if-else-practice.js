@@ -103,3 +103,14 @@
       //       console.log('fall :')
       // }
 }
+// --------------------------12|05|2025--------------------------------
+// task 1
+{
+      let num = 92 ;
+      if(num % 2 === 1){
+            console.log('odd :', num)
+      }
+      else if(num % 2 === 0){
+            console.log('even :', num)
+      }
+}
