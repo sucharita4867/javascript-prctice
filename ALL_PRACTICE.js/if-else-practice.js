@@ -116,14 +116,14 @@
 }
 // task 2
 {
-      // let number = 0 ;
-      // if (number > 0){
-      //       console.log('positive :', number)
-      // }
-      // else if(number < 0){
-      //       console.log('negative :', number)
-      // }
-      // else{
-      //       console.log('zero :', number)
-      // }
+      let number = 0 ;
+      if (number > 0){
+            console.log('positive :', number)
+      }
+      else if(number < 0){
+            console.log('negative :', number)
+      }
+      else{
+            console.log('zero :', number)
+      }
 }
