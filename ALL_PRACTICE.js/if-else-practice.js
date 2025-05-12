@@ -92,3 +92,14 @@
       //       console.log('error :', age)
       // }
 }
+// task 9
+{
+      // let a = 60 ;
+      // let b = 400 ;
+      // if(a > b && b < a){
+      //       console.log('pass :')
+      // }
+      // else{
+      //       console.log('fall :')
+      // }
+}
