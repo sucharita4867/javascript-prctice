@@ -24,6 +24,10 @@
 //       console.log(i);
 // }
 // =============3
-for (let n = 5 ; n <= 15 ; n++){
-      console.log(n);
+// for (let n = 5 ; n <= 15 ; n++){
+//       console.log(n);
+// }
+// ========================4
+for (let i = 50 ; i <= 100 ; i++){
+      console.log(i)
 }
