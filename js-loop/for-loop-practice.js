@@ -50,3 +50,17 @@
       //       s++ ;
       // }
 }
+// ------------------------------while loop decremental practice----------------------
+{
+      // let s = 10 ;
+      // while(s >= 0){
+      //       console.log(s);
+      //       s-- ;
+      // }
+      // ==========================
+      let n = 20 ;
+      while(n >= 10){
+            console.log(n);
+            n-- ;
+      }
+}
