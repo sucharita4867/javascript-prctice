@@ -8,10 +8,10 @@
 // for (first part ; second part ; third part){
 // loop statement 
 // }
-// let num = 0;     loop variable              
-// while (num < 5) {  loop condition
-      // console.log(num); loop statement
-      // num++;  loop variable change
+// let num = 0;     ===========loop variable              
+// while (num < 5) {  =========loop condition
+      // console.log(num); ====loop statement
+      // num++; ===============loop variable change
 // }
 
 // =========for loop =========
@@ -28,6 +28,10 @@
 //       console.log(n);
 // }
 // ========================4
-for (let i = 50 ; i <= 100 ; i++){
-      console.log(i)
+// for (let i = 50 ; i <= 100 ; i++){
+//       console.log(i)
+// }
+// ===================== 5
+for (let s = 20 ; s <= 60 ; s++){
+      console.log(s)
 }
