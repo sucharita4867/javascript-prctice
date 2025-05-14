@@ -19,4 +19,4 @@ for (let n = 1 ; n <= 20 ; n++){
       sum = sum + n;
       console.log(n);
 }
-console.log('sum of numbers from 1 to 5 : ' , sum )
+console.log('sum of numbers from 1 to 20 : ' , sum )

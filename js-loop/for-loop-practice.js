@@ -84,3 +84,15 @@
       //       m-- ;
       // }
 }
+// ===================================for sum loop practice===========================
+{
+      let sum = 0;
+      for (let n = 1 ; n <= 10 ; n++){
+            sum = n + sum ;
+            console.log(n);
+      }
+      console.log('sum of numbers from 1 to 10 :', sum);
+      // -------------------------------
+      let sum = 0 ;
+      for(let )
+}
