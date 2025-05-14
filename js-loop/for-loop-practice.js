@@ -100,10 +100,21 @@
       // }
       // console.log('sum of numbers from 50 to 100 :', sum)
       // ---------------------------
+      // let sum = 0 ;
+      // for(let g = 100 ; g <= 200 ; g++){
+      //       sum = sum + g ;
+      //       console.log(g);
+      // }
+      // console.log("sum of numbers from 100 to 200 :", sum)
+}
+// ====================================while sum loop practice========================
+{
+      let s = 0 ;
       let sum = 0 ;
-      for(let g = 100 ; g <= 200 ; g++){
-            sum = sum + g ;
-            console.log(g);
+      while(s <= 20){
+            console.log(s);
+            sum = sum + s ;
+            s++ ;
       }
-      console.log("sum of numbers from 100 to 200 :", sum)
+      console.log('sum :', sum)
 }
