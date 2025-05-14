@@ -109,12 +109,30 @@
 }
 // ====================================while sum loop practice========================
 {
-      let s = 0 ;
+      // let s = 0 ;
+      // let sum = 0 ;
+      // while(s <= 20){
+      //       console.log(s);
+      //       sum = sum + s ;
+      //       s++ ;
+      // }
+      // console.log('sum :', sum)
+      // ---------------------
+      // let h = 10 ;
+      // let sum = 0 ;
+      // while(h <= 50){
+      //       console.log(h);
+      //       sum = sum + h ;
+      //       h++ ;
+      // }
+      // console.log('sum :', sum)
+      // -------------------------
+      let k = 50 ;
       let sum = 0 ;
-      while(s <= 20){
-            console.log(s);
-            sum = sum + s ;
-            s++ ;
+      while(k <= 200){
+            console.log(k);
+            sum = sum + k ;
+            k++ ;
       }
       console.log('sum :', sum)
 }
