@@ -86,13 +86,24 @@
 }
 // ===================================for sum loop practice===========================
 {
-      let sum = 0;
-      for (let n = 1 ; n <= 10 ; n++){
-            sum = n + sum ;
-            console.log(n);
-      }
-      console.log('sum of numbers from 1 to 10 :', sum);
-      // -------------------------------
+      // let sum = 0;
+      // for (let n = 1 ; n <= 10 ; n++){
+      //       sum = n + sum ;
+      //       console.log(n);
+      // }
+      // console.log('sum of numbers from 1 to 10 :', sum);
+      // -----------------------------------
+      // let sum = 0 ;
+      // for (let s = 50 ; s <= 100 ; s++){
+      //       console.log(s);
+      //       sum = s + sum ;
+      // }
+      // console.log('sum of numbers from 50 to 100 :', sum)
+      // ---------------------------
       let sum = 0 ;
-      for(let )
+      for(let g = 100 ; g <= 200 ; g++){
+            sum = sum + g ;
+            console.log(g);
+      }
+      console.log("sum of numbers from 100 to 200 :", sum)
 }
