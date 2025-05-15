@@ -163,10 +163,33 @@
 }
 // =======================while even==================
 {
-      let k = 0 ;
-      while (k <= 40){
-            k = k+2 ;
-            console.log(k);
-            console.log('even no :', k)
+      // let k = 0 ;
+      // while (k <= 40){
+      //       k = k+2 ;
+      //       console.log(k);
+      //       console.log('even no :', k)
+      // }
+      // ------------------
+      // let i = 0 ;
+      // while(i <= 100){
+      //       i = i+2 ;
+      //       console.log(i);
+      //       console.log('even no :', i);
+      // }
+}
+// =====================while odd========================
+{
+      // let o = 1 ;
+      // while(o <= 20){
+      //       o = o+2 ;
+      //       console.log(o) ;
+      //       console.log('odd no :' , o);
+      // }
+      // ---------------------
+      let p = 1 ;
+      while(p <= 50){
+            p = p+4 ;
+            console.log(p);
+            console.log('odd no :', p);
       }
 }
