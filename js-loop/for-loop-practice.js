@@ -149,7 +149,7 @@
       //       console.log('even no :', b)
       // }
 }
-// =====================for odd ==========================
+// =====================for odd ======================
 {
       // for (let n = 1 ; n <= 20 ; n = n+2){
       //       console.log(n);
@@ -160,4 +160,13 @@
       //       console.log(k);
       //       console.log('odd no :', k)
       // }
+}
+// =======================while even==================
+{
+      let k = 0 ;
+      while (k <= 40){
+            k = k+2 ;
+            console.log(k);
+            console.log('even no :', k)
+      }
 }
