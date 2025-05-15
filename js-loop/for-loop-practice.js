@@ -1,5 +1,5 @@
-// =================================for loop=======================================
-// ---------------------for loop incremental practice---------------------
+// ====================================for loop=======================================
+// ---------------------------------for loop incremental practice---------------------
 {
       // for(let s = 5 ; s <= 20 ; s++){
 //       console.log(s);
@@ -21,7 +21,7 @@
 //       console.log(m);
 // }
 }
-// ------------------------for loop decremental practice-----------------------
+// -------------------------------for loop decremental practice-----------------------
 {
       // for (let s = 29 ; s >= 10 ; s--){
 //       console.log(s);
@@ -44,7 +44,7 @@
 // }
 }
 // =====================================while loop====================================
-// ----------------------------while loop incremental practice---------------------
+// -------------------------------while loop incremental practice---------------------
 {
       // let i = 0 ;
       // while (i <= 10){
@@ -127,12 +127,18 @@
       // }
       // console.log('sum :', sum)
       // -------------------------
-      let k = 50 ;
-      let sum = 0 ;
-      while(k <= 200){
-            console.log(k);
-            sum = sum + k ;
-            k++ ;
+      // let k = 0 ;
+      // let sum = 0 ;
+      // while(k <= 200){
+      //       console.log(k);
+      //       sum = sum + k ;
+      //       k++ ;
+      // }
+      // console.log('sum :', sum)
+}
+// ===============================for odd even number practice========================
+{
+      for (let n = 0 ; n <= 20 ; n = n+2){
+            console.log(n)
       }
-      console.log('sum :', sum)
 }

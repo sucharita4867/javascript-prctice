@@ -14,4 +14,4 @@ else{
 }
 
 // Array
-const numbers = [12, 13, 14, 15, 16];
+// const numbers = [12, 13, 14, 15, 16];
