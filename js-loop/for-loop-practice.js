@@ -137,8 +137,27 @@
       // console.log('sum :', sum)
 }
 // ===============================for odd even number practice========================
+// =====================for even======================
 {
-      for (let n = 0 ; n <= 20 ; n = n+2){
-            console.log(n)
-      }
+      // for (let n = 0 ; n <= 20 ; n = n+2){
+      //       console.log(n)
+      //       console.log('even no :', n)
+      // }
+      // -----------------
+      // for (let b = 0 ; b <= 40 ; b = b+2){
+      //       console.log(b)
+      //       console.log('even no :', b)
+      // }
+}
+// =====================for odd ==========================
+{
+      // for (let n = 1 ; n <= 20 ; n = n+2){
+      //       console.log(n);
+      //       console.log('odd no :', n)
+      // }
+      // --------------------------
+      // for (let k = 1 ; k <= 40 ; k = k+4){
+      //       console.log(k);
+      //       console.log('odd no :', k)
+      // }
 }
