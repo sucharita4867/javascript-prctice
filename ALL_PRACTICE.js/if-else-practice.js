@@ -130,19 +130,32 @@
 // -------------------------------16|05|2025-------------------------------
 // task 1
 {
-      let num1 = 7 ;
-      let num2 = 7 ;
-      let num3 = 7 ;
-      if(num1 > num2 && num1 > num3){
-            console.log('this is big number :', num1)
+      // let num1 = 7 ;
+      // let num2 = 7 ;
+      // let num3 = 7 ;
+      // if(num1 > num2 && num1 > num3){
+      //       console.log('this is big number :', num1)
+      // }
+      // else if (num2 > num1 && num2 > num3){
+      //       console.log('this is big number :', num2)
+      // }
+      // else if(num3 > num2 && num3 > num1){
+      //       console.log('this is big number :', num3)
+      // }
+      // else{
+      //       console.log('equal')
+      // }
+}
+// task 2
+{
+      let s = 0 ;
+      if(s > 0){
+            console.log('positive :', s)
       }
-      else if (num2 > num1 && num2 > num3){
-            console.log('this is big number :', num2)
+      else if(s < 0){
+            console.log('negative :', s)
       }
-      else if(num3 > num2 && num3 > num1){
-            console.log('this is big number :', num3)
-      }
-      else{
-            console.log('equal')
+      else if(s === 0){
+            console.log('zero :', s)
       }
 }
