@@ -116,14 +116,33 @@
 }
 // task 2
 {
-      let number = 0 ;
-      if (number > 0){
-            console.log('positive :', number)
+      // let number = 0 ;
+      // if (number > 0){
+      //       console.log('positive :', number)
+      // }
+      // else if(number < 0){
+      //       console.log('negative :', number)
+      // }
+      // else{
+      //       console.log('zero :', number)
+      // }
+}
+// -------------------------------16|05|2025-------------------------------
+// task 1
+{
+      let num1 = 7 ;
+      let num2 = 7 ;
+      let num3 = 7 ;
+      if(num1 > num2 && num1 > num3){
+            console.log('this is big number :', num1)
       }
-      else if(number < 0){
-            console.log('negative :', number)
+      else if (num2 > num1 && num2 > num3){
+            console.log('this is big number :', num2)
+      }
+      else if(num3 > num2 && num3 > num1){
+            console.log('this is big number :', num3)
       }
       else{
-            console.log('zero :', number)
+            console.log('equal')
       }
 }
