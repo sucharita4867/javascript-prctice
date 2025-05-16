@@ -161,14 +161,14 @@
 }
 // task 3
 {
-      let number = 19 ;
-      if(number > 1 && number < 10){
-            console.log('Within range')
-      }
-      else if(number > 11 && number < 20){
-            console.log('Second range')
-      }
-      else{
-            console.log('Out of range')
-      }
+      // let number = 19 ;
+      // if(number > 1 && number < 10){
+      //       console.log('Within range')
+      // }
+      // else if(number > 11 && number < 20){
+      //       console.log('Second range')
+      // }
+      // else{
+      //       console.log('Out of range')
+      // }
 }
