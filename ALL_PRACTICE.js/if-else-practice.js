@@ -148,14 +148,27 @@
 }
 // task 2
 {
-      let s = 0 ;
-      if(s > 0){
-            console.log('positive :', s)
+      // let s = 0 ;
+      // if(s > 0){
+      //       console.log('positive :', s)
+      // }
+      // else if(s < 0){
+      //       console.log('negative :', s)
+      // }
+      // else if(s === 0){
+      //       console.log('zero :', s)
+      // }
+}
+// task 3
+{
+      let number = 19 ;
+      if(number > 1 && number < 10){
+            console.log('Within range')
       }
-      else if(s < 0){
-            console.log('negative :', s)
+      else if(number > 11 && number < 20){
+            console.log('Second range')
       }
-      else if(s === 0){
-            console.log('zero :', s)
+      else{
+            console.log('Out of range')
       }
 }
