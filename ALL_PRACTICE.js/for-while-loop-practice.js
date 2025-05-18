@@ -120,4 +120,15 @@
       //    }
       // }
    }
+   // while loop break practice
+   {
+      let h = 0 ;
+      while(h < 20){
+         console.log(h);
+         h++ ;
+         if(h >= 10){
+            break ;
+         }
+      }
+   }
 }
