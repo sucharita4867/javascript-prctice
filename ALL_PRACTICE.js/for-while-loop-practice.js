@@ -98,10 +98,26 @@
 {
    // break practice in for & while loop
    // for loop break practice
-   for(let i = 0 ; i <= 20 ; i++){
-      console.log(i) ;
-      if(i > 5){
-         break ;
-      }
+   {
+      // for(let i = 0 ; i <= 20 ; i++){
+      //    console.log(i) ;
+      //    if(i > 5){
+      //       break ;
+      //    }
+      // }
+      // ---------------------
+      // for (let i = 0 ; i < 50 ; i++){
+      //    console.log(i);
+      //    if(i >= 20){
+      //       break ;
+      //    }
+      // }
+      // -----------------
+      // for(let j = 0 ; j < 20 ; j++){
+      //    console.log(j);
+      //    if(j >= 10){
+      //       break ;
+      //    }
+      // }
    }
 }
