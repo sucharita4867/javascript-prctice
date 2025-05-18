@@ -56,4 +56,33 @@
             // }
          }
       }
+      // for loop sum practice
+      {
+         // let sum = 0 ;
+         // for(let n = 1 ; n <= 100 ; n++){
+         //    console.log(n);
+         //    n++ ;
+         //    sum = n + sum ;
+         // }
+         // console.log('sum number :', sum);
+         // ----------------------------------
+         // let sum = 0 ;
+         // for(let m = 1 ; m <= 20 ; m++){
+         //    console.log(m);
+         //    m++ ;
+         //    sum = m + sum ;
+         // }
+         // console.log('sum number :', sum);
+      }
+      // WHILE loop sum practice
+      {
+         let sum = 0 ;
+         let i = 1 ;
+         while(i <= 40){
+            console.log(i);
+            i++ ;
+            sum = sum + i; 
+         }
+         console.log('sum number :', sum)
+      }
 }
