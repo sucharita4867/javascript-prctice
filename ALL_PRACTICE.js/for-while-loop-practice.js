@@ -1,6 +1,5 @@
 // -----------------------------------for loop practice------------------------------
 // ------------incremental & decremental practice in for & while loop----------------
-// =============for
 {
       // FOR Loop Incremental & Decremental Practice
      {
@@ -76,13 +75,33 @@
       }
       // WHILE loop sum practice
       {
-         let sum = 0 ;
-         let i = 1 ;
-         while(i <= 40){
-            console.log(i);
-            i++ ;
-            sum = sum + i; 
-         }
-         console.log('sum number :', sum)
+         // let sum = 0 ;
+         // let i = 1 ;
+         // while(i <= 40){
+         //    console.log(i);
+         //    i++ ;
+         //    sum = sum + i; 
+         // }
+         // console.log('sum number :', sum)
+         // --------------------------
+         // let sum = 0 ;
+         // let u = 1 ;
+         // while(u <= 50){
+         //    console.log(u) ;
+         //    u++ ;
+         //    sum = sum + u ;
+         // }
+         // console.log('sum number :' , sum)
       }
+}
+// -----------------------for loop & while loop continue & break practice-------------
+{
+   // break practice in for & while loop
+   // for loop break practice
+   for(let i = 0 ; i <= 20 ; i++){
+      console.log(i) ;
+      if(i > 5){
+         break ;
+      }
+   }
 }
