@@ -156,4 +156,15 @@
       //    console.log(o)
       // }
    }
+   // while loop continue practice
+   {
+      let i = 1 ;
+      while(i < 20){
+         i++ ;
+         if(i % 2 === 1){
+            continue ;
+         }
+         console.log(i);
+      }
+   }
 }
