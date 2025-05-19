@@ -96,7 +96,7 @@
 }
 // -----------------------for loop & while loop continue & break practice-------------
 {
-   // break practice in for & while loop
+   // -------------------break practice in for & while loop-----------------------
    // for loop break practice
    {
       // for(let i = 0 ; i <= 20 ; i++){
@@ -131,13 +131,29 @@
       //    }
       // }
       // --------------------
-      let k = 0 ;
-      while(k < 30){
-         console.log(k) ;
-         k++ ;
-         if(k > 10){
-            break ;
-         }
-      }
+      // let k = 0 ;
+      // while(k < 30){
+      //    console.log(k) ;
+      //    k++ ;
+      //    if(k > 10){
+      //       break ;
+      //    }
+      // }
+   }
+   // ---------------------continue practice in for & while loop--------------
+   // for loop continue practice
+   {
+      // for(let k = 1 ; k < 40 ; k++){
+      //    if(k % 2 === 1){
+      //       continue
+      //    }
+      //    console.log(k);
+      // }
+      // --------------------
+      // for(let o = 1 ; o < 20 ;o++){
+      //    if(o % 2 === 1)
+      //       continue ;
+      //    console.log(o)
+      // }
    }
 }
