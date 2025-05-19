@@ -122,11 +122,20 @@
    }
    // while loop break practice
    {
-      let h = 0 ;
-      while(h < 20){
-         console.log(h);
-         h++ ;
-         if(h >= 10){
+      // let h = 0 ;
+      // while(h < 20){
+      //    console.log(h);
+      //    h++ ;
+      //    if(h >= 10){
+      //       break ;
+      //    }
+      // }
+      // --------------------
+      let k = 0 ;
+      while(k < 30){
+         console.log(k) ;
+         k++ ;
+         if(k > 10){
             break ;
          }
       }
