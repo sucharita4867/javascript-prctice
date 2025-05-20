@@ -234,3 +234,21 @@
    //    console.log(k);
    // }
 }
+// task 6
+{
+   // let sum = 0 ;
+   // for(let n = 1 ; n <= 100 ; n++){
+   //    console.log(n);
+   //    sum = sum + n 
+   // }
+   // console.log('sum number :', sum)
+   // while
+   // let sum = 0 ;
+   // let n = 1 ;
+   // while(n <= 100){
+   //    console.log(n);
+   //    n++ ;
+   //    sum = sum + n ;
+   // }
+   // console.log('sum number :', sum)
+}
