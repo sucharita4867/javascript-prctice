@@ -203,6 +203,7 @@
    // }
 }
 // task 3
+// 5 diye vag kora jai ki na
 {
    // for (let k = 0 ; k <= 50 ; k++){
    //    console.log(k);
@@ -212,12 +213,24 @@
    // }
 
    // while
-   let k = 0 ;
-   while(k < 50){
-      k++ ;
-      console.log(k);
-      if(k % 5 === 0){
-         console.log('5 diye vag kora jai :', k)
-      }
-   }
+   // let k = 0 ;
+   // while(k < 50){
+   //    k++ ;
+   //    console.log(k);
+   //    if(k % 5 === 0){
+   //       console.log('5 diye vag kora jai :', k)
+   //    }
+   // }
+}
+// task 4
+{
+   // for (let k = 100 ; k >= 1 ;k--){
+   //    console.log(k);
+   // }
+   // while
+   // let k = 100 ;
+   // while(k >= 1){
+   //    k-- ;
+   //    console.log(k);
+   // }
 }
