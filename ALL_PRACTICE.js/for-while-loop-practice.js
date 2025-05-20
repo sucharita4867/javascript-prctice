@@ -171,6 +171,7 @@
 }
 // --------------------------------loop task practice---------------------------------
 // task 1
+// q----1-100 print
 {
    // for (let k = 1 ; k <= 100 ; k++){
    //    console.log(k);
@@ -183,6 +184,7 @@
    // }
 }
 // task 2
+// even Number
 {
    // for(let k = 0 ; k <= 30 ; k++){
    //    console.log(k);
@@ -199,4 +201,23 @@
    //       console.log('even number :', k)
    //    }
    // }
+}
+// task 3
+{
+   // for (let k = 0 ; k <= 50 ; k++){
+   //    console.log(k);
+   //    if(k % 5 === 0){
+   //       console.log('5 diye vag kora jai :', k)
+   //    }
+   // }
+
+   // while
+   let k = 0 ;
+   while(k < 50){
+      k++ ;
+      console.log(k);
+      if(k % 5 === 0){
+         console.log('5 diye vag kora jai :', k)
+      }
+   }
 }
