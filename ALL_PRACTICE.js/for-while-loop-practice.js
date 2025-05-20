@@ -158,6 +158,7 @@
    }
    // while loop continue practice
    {
+
       // let i = 1 ;
       // while(i < 20){
       //    i++ ;
@@ -166,5 +167,12 @@
       //    }
       //    console.log(i);
       // }
+   }
+}
+// --------------------------------loop task practice---------------------------------
+// task 1
+{
+   for (let k = 1 ; k <= 100 ; k++){
+      console.log(k);
    }
 }

@@ -173,10 +173,12 @@
       // }
 }
 // task 4
-// let marks = 220; 
+{
+      // let marks = 220; 
 // if(marks > 50){
 //       console.log('passed')
 // }
 // else{
 //       console.log('fail')
 // }
+}
