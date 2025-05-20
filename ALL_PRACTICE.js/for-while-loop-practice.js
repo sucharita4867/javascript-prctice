@@ -172,7 +172,31 @@
 // --------------------------------loop task practice---------------------------------
 // task 1
 {
-   for (let k = 1 ; k <= 100 ; k++){
-      console.log(k);
-   }
+   // for (let k = 1 ; k <= 100 ; k++){
+   //    console.log(k);
+   // }
+   // while
+   // let k = 1 ;
+   // while(k < 100){
+   //    k++ ;
+   //    console.log(k);
+   // }
+}
+// task 2
+{
+   // for(let k = 0 ; k <= 30 ; k++){
+   //    console.log(k);
+   //    if(k % 2 === 0){
+   //       console.log('even number :', k);
+   //    }
+   // }
+   // while
+   // let k = 0 ;
+   // while(k <= 20){
+   //    console.log(k);
+   //    k++ ;
+   //    if(k % 2 === 0){
+   //       console.log('even number :', k)
+   //    }
+   // }
 }
