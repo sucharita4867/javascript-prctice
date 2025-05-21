@@ -193,3 +193,23 @@
       //       console.log('not')
       // }
 }
+// task 2
+{
+      // let num = 7 ;
+      // if(num > 5){
+      //       console.log('big')
+      // }
+      // else{
+      //       console.log('small')
+      // }
+}
+// task 3
+{
+      // let num = 55 ;
+      // if(num % 5 === 0){
+      //       console.log('vag kora jai :', num)
+      // }
+      // else{
+      //       console.log('vag kora jai na :', num)
+      // }
+}
