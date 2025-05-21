@@ -261,11 +261,29 @@
    //    }
    // }
    // while
-   let i = 1 ;
-   while(i < 100){
-      i++ ;
-      if(i % 2 === 1){
-         console.log('odd number :', i)
-      }
-   }
+   // let i = 1 ;
+   // while(i < 100){
+   //    i++ ;
+   //    if(i % 2 === 1){
+   //       console.log('odd number :', i)
+   //    }
+   // }
+}
+// task 9
+{
+   // for (let i = 1 ; i <= 30 ; i++){
+   //    console.log(i);
+   //    if(i % 3 === 0){
+   //       console.log('vag kora jai :' , i);
+   //    }
+   // }
+   // while
+   // let i = 1 ;
+   // while(i <= 30){
+   //    console.log(i);
+   //    i++ ;
+   //    if(i % 3 === 0){
+   //       console.log('3 diye vag kora jai :', i)
+   //    }
+   // }
 }
