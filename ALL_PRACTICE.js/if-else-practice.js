@@ -213,3 +213,13 @@
       //       console.log('vag kora jai na :', num)
       // }
 }
+// task 4
+{
+      let i = 110 ;
+      if(i >= 20){
+            console.log('thik ache')
+      }
+      else{
+            console.log('vhul')
+      }
+}
