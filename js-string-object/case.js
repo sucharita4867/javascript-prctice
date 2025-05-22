@@ -52,19 +52,19 @@
       }
 
       {
-            let name = '  sucharita';
-            let num = ' sucharita  ';
-            console.log(name);
-            console.log(num); 
+            // let name = '  sucharita';
+            // let num = ' sucharita  ';
+            // console.log(name);
+            // console.log(num); 
       
-            console.log(name.trim());
-            console.log(num.trim());
+            // console.log(name.trim());
+            // console.log(num.trim());
             
-            if(name.trim() === num.trim()){
-                  console.log('name thik ache')
-            }
-            else{
-                  console.log('name vul ache')
-            }
+            // if(name.trim() === num.trim()){
+            //       console.log('name thik ache')
+            // }
+            // else{
+            //       console.log('name vul ache')
+            // }
       }
 }

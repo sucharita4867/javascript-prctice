@@ -12,6 +12,12 @@ const friends = friendsStr.split(',');
 // console.log(friends);
 // ------------------------------------------------
 const friendship = ['anu', 'sucho', 'racho', 'farish', 'sabana', 'reba', 'sanjida',];
-console.log(friendship.join());
-console.log(friendship.join('|'));
-console.log(friendship.join('-'));
+// console.log(friendship.join());
+// console.log(friendship.join('|'));
+// console.log(friendship.join('-'));
+// ===================================================================================
+let collage = 'mograhut collage' ;
+// let part = collage.slice(5,8);
+// let part = collage.slice(0,5);
+let part = collage.slice(13,16);
+console.log(part);
