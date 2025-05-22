@@ -1,5 +1,5 @@
-const first = 'sucha';
-const last = 'Rita';
+{// const first = 'sucha';
+// const last = 'Rita';
 
 // const fullname = first + last;
 // const fullName = first + ' ' + last;
@@ -11,3 +11,16 @@ const last = 'Rita';
 // --------------------
 // Includes
 // console.log(last.includes('r'));
+}
+
+let firstname = 'sucharita' ;
+let lastname = 'sardar' ;
+// const fullName = firstname + lastname ;
+// const fullName = firstname + ' ' + lastname ;
+// console.log(fullName)
+// ----------------------
+const fullName2 = firstname.concat(' ').concat(lastname);
+// console.log(fullName2) ;
+// --------------------
+// includes 
+console.log(lastname.includes('a'))
