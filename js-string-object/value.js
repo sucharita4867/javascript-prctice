@@ -16,10 +16,21 @@ const person = {
 // console.log(person)
 
 // ====================================
-person.name = 'sahil';
-person.age = 20 ;
-person.salary = 'none' ;
-person["family member"] = ['baba' ,'ma', 'vai', 'bon'] ;
-person.married = 'none' ;
-person.profession = 'student';
+// person.name = 'sahil';
+// person.age = 20 ;
+// person.salary = 'none' ;
+// person["family member"] = ['baba' ,'ma', 'vai', 'bon'] ;
+// person.married = 'none' ;
+// person.profession = 'student';
+// console.log(person);
+// ==================================
+person['name'] = 'farish',
+person['married'] = 'none',
+person['salary'] = 50000 ,
+person['profession'] = 'teacher',
+person['family member'] = ['bor','chele', 'meye' ,'farish'],
+person['age'] = 30 ;
+
+const keyname = 'profession';
+person[keyname] = 'doctor'
 console.log(person);

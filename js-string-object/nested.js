@@ -10,13 +10,23 @@ const college = {
             }
       }
 }
+{
+      // console.log(college.unique.color)
+// college.unique.result.merit = 'top good college'
+// console.log(college.unique.result.merit)
 
-// console.log(college.unique.color)
-college.unique.result.merit = 'top good college'
-console.log(college.unique.result.merit)
+// college.events[2] = '1 may'
+// console.log(college.events[2])
 
-college.events[2] = '1 may'
-console.log(college.events[2])
+// delete college.events;
+// console.log(college)
+}
+// --------------------------------------
+// console.log(college.unique.result.merit)
+college.unique.result.merit = 'top top top most'
+console.log(college['unique'].result.merit)
+college.events[2] = 'happy birthday'
+console.log(college.events[1])
 
 delete college.events;
 console.log(college)
