@@ -5,9 +5,9 @@ const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 // console.log(numbers)
 
 // ----------2 proses---------
-// const reversed = numbers.reverse();
-// console.log(numbers);
-
+const reverse = numbers.reverse();
+console.log(numbers);
+// ---------3 proses-----------
 // const revNumber = []; 
 // for (const num of numbers){
 //       // console.log(num);
@@ -21,4 +21,4 @@ const friends = ['racho', 'sucho', 'anu', 'farish', 'sabana', 'moni'];
 // console.log(friends)
 // ===========2
 const reversed = friends.reverse();
-console.log(friends);
+// console.log(friends);
