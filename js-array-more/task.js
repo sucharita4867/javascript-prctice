@@ -3,7 +3,7 @@ const color = [ 'red', 'blue', 'green', 'yellow', 'orange' ];
 // console.log(color);
 // color.reverse();
 // console.log(color);
-// ---------------------------------------
+// -------------------------------------------
 // TASK 2
 [[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]
 // let numbers = [12, 98, 5, 41, 23, 78, 46];
