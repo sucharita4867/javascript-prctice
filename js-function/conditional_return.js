@@ -15,5 +15,14 @@ function oddNo(number){
       }
       return false ;
 }
-console.log(oddNo(23424));
-console.log(oddNo(74559));
+// console.log(oddNo(23424));
+// console.log(oddNo(74559));
+// ===============================
+function evenNumber (number){
+      if(number % 2 === 0){
+            return true ;
+      }
+      return false ;
+}
+console.log(evenNumber(423418));
+console.log(evenNumber(23123423));
