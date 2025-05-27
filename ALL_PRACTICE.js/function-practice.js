@@ -50,3 +50,18 @@ function oddAndEven (numbers){
 // const total2 = oddAndEven(40);
 // console.log(total2)
 }
+// task 6
+// {function numbers (n) {
+//       const result = [];
+//       for(let i = 0 ; i < n ; i++){
+//            result.push(i);
+//       }
+//       return result;
+// }
+// const loop = numbers (50);
+// console.log(loop);}
+// task 1 
+function names(num){
+      console.log('"hello, ' + num)
+}
+names('<sucharita>!"')
