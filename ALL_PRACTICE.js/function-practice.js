@@ -60,8 +60,17 @@ function oddAndEven (numbers){
 // }
 // const loop = numbers (50);
 // console.log(loop);}
+// ------------------------------------------------------
 // task 1 
-function names(num){
-      console.log('"hello, ' + num)
+{// function names(num){
+//       console.log('"hello, ' + num)
+// }
+// names('<sucharita>!"')
 }
-names('<sucharita>!"')
+// task 2
+function sumNumber (num1 , num2){
+      const sum = num1 + num2 ;
+      return sum ;
+}
+// const result = sumNumber (44, 12);
+// console.log(result);
