@@ -68,9 +68,25 @@ function oddAndEven (numbers){
 // names('<sucharita>!"')
 }
 // task 2
-function sumNumber (num1 , num2){
+{
+      function sumNumber (num1 , num2){
       const sum = num1 + num2 ;
       return sum ;
 }
 // const result = sumNumber (44, 12);
 // console.log(result);
+}
+// ---------------------------------------------------------
+// task 1
+{
+      function oddEven (number){
+if(number % 2 === 0){
+      return 'even';
+}
+else if(number % 2 === 1){
+      return 'odd';
+}
+}
+const output = oddEven(909);
+console.log(output)
+}
