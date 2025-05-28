@@ -217,9 +217,21 @@
 {
       let i = 110 ;
       if(i >= 20){
-            console.log('thik ache')
+            // console.log('thik ache')
       }
       else{
-            console.log('vhul')
+            // console.log('vhul')
       }
+}
+// ------------------------------- 28 | 05 | 2025 ----------------------------
+// task 1
+let number = 2009 ;
+if(number % 2 === 0){
+      console.log('even no :' , number);
+}
+else if(number % 2 === 1){
+      console.log('odd no :', number);
+}
+else{
+      console.log('zero no :', number);
 }
