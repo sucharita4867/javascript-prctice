@@ -225,13 +225,64 @@
 }
 // ------------------------------- 28 | 05 | 2025 ----------------------------
 // task 1
-let number = 2009 ;
+{
+      let number = 2009 ;
 if(number % 2 === 0){
-      console.log('even no :' , number);
+      // console.log('even no :' , number);
 }
 else if(number % 2 === 1){
-      console.log('odd no :', number);
+      // console.log('odd no :', number);
 }
 else{
-      console.log('zero no :', number);
+      // console.log('zero no :', number);
+}
+}
+// task 2
+{
+      let numbers = 0 ;
+if(numbers > 0){
+      // console.log('positive :', numbers);
+}
+else if(numbers < 0){
+      // console.log('negative :', numbers);
+}
+else{
+      // console.log('zero :', numbers);
+}
+}
+// task 4
+{
+      let num1 = 2 ;
+let num2 = 2 ;
+let num3 = 2 ;
+if(num1 > num2 && num1 > num3){
+      // console.log('this number id big :', num1);
+}
+else if(num2 > num1 && num2 > num3){
+      // console.log('this number is big :', num2);
+}
+else if(num3 > num1 && num3 > num2){
+      // console.log('this number is big :', num3);
+}
+else{
+      // console.log('equal no');
+}
+}
+// task 5
+{
+      let marks = 391 ;
+if(marks > 40){
+      // console.log('pass :', marks)
+}
+else{
+      // console.log('fail :', marks)
+}
+}
+// task 3
+let latter = 'n' ;
+if(latter === 'a' || latter === 'e' || latter === 'i' || latter === 'o' || latter === 'u'){
+      console.log('vawel :', latter);
+}
+else{
+      console.log('consonant :', latter);
 }
