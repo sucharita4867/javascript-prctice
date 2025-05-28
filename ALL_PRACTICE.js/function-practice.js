@@ -87,6 +87,58 @@ else if(number % 2 === 1){
       return 'odd';
 }
 }
-const output = oddEven(909);
-console.log(output)
+// const output = oddEven(909);
+// console.log(output)
 }
+// task 2
+{
+      function Square (numbers){
+      return numbers * numbers 
+}
+// const total = Square(61);
+// console.log(total)
+
+function Squares (SquareNumber){
+      return SquareNumber * SquareNumber ;
+}
+// const result = Squares(9);
+// console.log(result)
+}
+// tesk 3
+{
+      function bigNumbers (a, b , c){
+      if(a > b || a > c && b > a || b > c && c > a || c > b){
+            return b , a ,c ;
+      }
+}
+// const bignum = bigNumbers(93, 96, 99);
+// console.log('this is big number :',bignum);
+}
+// task 4 
+{
+      function leapYear (year){
+      if(year % 4 === 0 && (year % 100 !== 1 || year % 400 === 0)){
+            return true;
+      }
+      else{
+            return false;
+      }
+}
+// const allyear = leapYear(2028);
+// console.log('is leap year :', allyear)
+}
+// ---------------------------------------
+// task 1
+{
+      function sumNumbers (a , b){
+      return a + b;
+}
+// const total = sumNumbers(47 , 13);
+// console.log('sum numbers :', total)
+}
+// task 2
+function Squares (squ){
+      return squ * squ ;
+}
+// const output = Squares(6);
+// console.log('Square numbers :', output)
