@@ -137,8 +137,30 @@ function Squares (SquareNumber){
 // console.log('sum numbers :', total)
 }
 // task 2
-function Squares (squ){
+{
+      function Squares (squ){
       return squ * squ ;
 }
 // const output = Squares(6);
 // console.log('Square numbers :', output)
+}
+// task 3
+{
+      function nameD (i){
+      console.log(i + 'hello');
+      }
+      // nameD('moni ')
+}
+// -------------------29 | 05 | 2025 ---------------------------
+// task 9
+function oddEven (number){
+      if(number % 2 === 0){
+            return 'even no'
+      }
+      else{
+            return 'odd no'
+      }
+}
+const result = oddEven(43);
+console.log(result);
+
