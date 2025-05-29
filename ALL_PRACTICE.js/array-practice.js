@@ -30,3 +30,22 @@
 //             console.log(i)
 //       }
 // }
+// -------------------------- 29 |05 | 2025 --------------------------------
+// task 1
+{let numbers = [1,2,5,6,7,3,4,9,8,10];
+// console.log(numbers);
+}
+// task 2
+let numbers = [55 ,3, 9 ,10,20];
+let sum = 0 ;
+for(let i = 0; i < numbers.length; i++) {
+  sum += numbers[i];
+}
+// console.log('sum numbers :', sum);
+// ===================================
+let number = [30, 45, 22, 53,12];
+let sumNum = 0 ;
+for(let o = 0 ; o < number.length ; o++){
+      sum += number[o];
+}
+console.log('sum numbers :' , sum);
