@@ -279,10 +279,24 @@ else{
 }
 }
 // task 3
-let latter = 'n' ;
+{
+      let latter = 'n' ;
 if(latter === 'a' || latter === 'e' || latter === 'i' || latter === 'o' || latter === 'u'){
-      console.log('vawel :', latter);
+      // console.log('vawel :', latter);
 }
 else{
-      console.log('consonant :', latter);
+      // console.log('consonant :', latter);
+}
+}
+// ------------------------ 30 | 05 |2025 --------------------------
+// task 1
+let num = 0 ;
+if(num > 0){
+      console.log('positive no :', num)
+}
+else if(num < 0){
+      console.log('negative no :', num)
+}
+else{
+      console.log('zero :', num);
 }
