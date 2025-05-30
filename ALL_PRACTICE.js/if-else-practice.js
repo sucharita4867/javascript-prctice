@@ -290,13 +290,57 @@ else{
 }
 // ------------------------ 30 | 05 |2025 --------------------------
 // task 1
-let num = 0 ;
+{
+      let num = 0 ;
 if(num > 0){
-      console.log('positive no :', num)
+      // console.log('positive no :', num)
 }
 else if(num < 0){
-      console.log('negative no :', num)
+      // console.log('negative no :', num)
 }
 else{
-      console.log('zero :', num);
+      // console.log('zero :', num);
+}
+}
+// task 2
+{
+      let vote = 12 ;
+if(vote > 18){
+// console.log('vote dite parbe');
+}
+else{
+// console.log('vote dite parbe na')
+}
+}
+// task 3
+{
+      let i = 0 ;
+if(i % 2 === 0){
+      // console.log('even no')
+}
+else{
+      // console.log('odd no')
+}
+}
+// task 4
+{
+      // let p = 30 ;
+// if(p >= 40){
+//       // console.log('pass')
+// }
+// else(
+//       console.log('fail')
+// )
+}
+// task 5
+let i = 340 ;
+let o =340 ;
+if(i > o ){
+      console.log('this is big number :', i);
+}
+else if(o > i){
+      console.log('this number is big :', o)
+}
+else{
+      console.log('equal')
 }
