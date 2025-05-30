@@ -62,6 +62,10 @@ for(let sumS of numbers){
 // console.log(sum);
 }
 // task 2
+// let evenNos = [2,4,3,7,9,8,12,43,45,66,46,14,34,43];
+// const result = maxInArray(evenNos);
+// console.log('big no :', result)
+// task 3
 {
       let numbers = [17,15,29,65,27,48];
 const revNumbers = [];
@@ -72,4 +76,31 @@ for(const revs of numbers){
 // console.log(revNumbers);
 const revf = numbers.reverse();
 // console.log(revf)
+}
+// task 4
+{
+      let evenNos = [2,4,3,7,9,8,12,43,45,66,46,14,34,43];
+for (const evenNumber of evenNos){
+      if(evenNumber % 2 === 0){
+            // console.log('even', evenNumber)
+      }
+
+}
+}
+// task 5
+{
+      let evenNos = [2,4,3,7,9,8,12,43,45,66,46,14,34,43];
+let number = 34 ;
+if(evenNos.includes(number)){
+      // console.log('true');
+}else{
+      // console.log('false');
+}
+
+// console.log(evenNos.includes(number));
+}
+// task 6
+{
+      let evenNos = [2,4,3,7,9,8,12,43,45,66,46,14,34,43];
+// console.log(evenNos.length);
 }
