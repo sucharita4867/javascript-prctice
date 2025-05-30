@@ -36,7 +36,8 @@
 // console.log(numbers);
 }
 // task 2
-let numbers = [55 ,3, 9 ,10,20];
+{
+      let numbers = [55 ,3, 9 ,10,20];
 let sum = 0 ;
 for(let i = 0; i < numbers.length; i++) {
   sum += numbers[i];
@@ -48,4 +49,13 @@ let sumNum = 0 ;
 for(let o = 0 ; o < number.length ; o++){
       sum += number[o];
 }
-console.log('sum numbers :' , sum);
+// console.log('sum numbers :' , sum);
+}
+// --------------------------- 30 | 05 | 2025 ----------------------------
+// task 1
+let numbers = [17,15,29,65,27,48];
+let sum = 0 ;
+for(let sumS of numbers){
+      sum += sumS;
+}
+console.log(sum);
