@@ -53,9 +53,23 @@ for(let o = 0 ; o < number.length ; o++){
 }
 // --------------------------- 30 | 05 | 2025 ----------------------------
 // task 1
-let numbers = [17,15,29,65,27,48];
+{
+      let numbers = [17,15,29,65,27,48];
 let sum = 0 ;
 for(let sumS of numbers){
       sum += sumS;
 }
-console.log(sum);
+// console.log(sum);
+}
+// task 2
+{
+      let numbers = [17,15,29,65,27,48];
+const revNumbers = [];
+for(const revs of numbers){
+      // console.log(revs);
+      revNumbers.unshift(revs)
+}
+// console.log(revNumbers);
+const revf = numbers.reverse();
+// console.log(revf)
+}
