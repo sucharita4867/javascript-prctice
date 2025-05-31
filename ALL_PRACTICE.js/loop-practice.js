@@ -300,3 +300,19 @@ while (i < 100){
 }
 }
 // task 2
+{
+   for(let s = 0 ; s < 100 ;s++){
+   if(s % 2 === 0){
+      // console.log(s)
+   }
+}
+}
+// task 5 
+for(let i = 10 ; i > 0 ; i--){
+   // console.log(i);
+}
+let i = 10 ;
+while(i > 0){
+   i-- ;
+   // console.log(i);
+}
