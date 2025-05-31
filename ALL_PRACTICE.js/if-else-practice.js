@@ -333,8 +333,9 @@ else{
 // )
 }
 // task 5
-let i = 340 ;
-let o =340 ;
+{
+      // let i = 340 ;
+// let o =340 ;
 if(i > o ){
       console.log('this is big number :', i);
 }
@@ -343,4 +344,5 @@ else if(o > i){
 }
 else{
       console.log('equal')
+}
 }
