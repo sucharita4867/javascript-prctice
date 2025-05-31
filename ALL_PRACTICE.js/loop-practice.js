@@ -308,7 +308,8 @@ while (i < 100){
 }
 }
 // task 5 
-for(let i = 10 ; i > 0 ; i--){
+{
+   for(let i = 10 ; i > 0 ; i--){
    // console.log(i);
 }
 let i = 10 ;
@@ -316,3 +317,6 @@ while(i > 0){
    i-- ;
    // console.log(i);
 }
+}
+// task 8
+

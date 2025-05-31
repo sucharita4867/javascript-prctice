@@ -153,14 +153,23 @@ function Squares (SquareNumber){
 }
 // -------------------29 | 05 | 2025 ---------------------------
 // task 9
-function oddEven (number){
+{
+      function oddEven (number){
       if(number % 2 === 0){
-            return 'even no'
+            // return 'even no'
       }
       else{
-            return 'odd no'
+            // return 'odd no'
       }
 }
-const result = oddEven(43);
-console.log(result);
+// const result = oddEven(43);
+// console.log(result);
+}
+// task 1
 
+function sum (x , y){
+      const sumNumber = x + y;
+      return sumNumber ;
+}
+const returnNo = sum(4 , 5);
+console.log(returnNo);
