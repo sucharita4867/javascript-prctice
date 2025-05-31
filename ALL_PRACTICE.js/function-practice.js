@@ -167,9 +167,47 @@ function Squares (SquareNumber){
 }
 // task 1
 
-function sum (x , y){
+{
+      function sum (x , y){
       const sumNumber = x + y;
       return sumNumber ;
 }
-const returnNo = sum(4 , 5);
-console.log(returnNo);
+// const returnNo = sum(4 , 5);
+// console.log(returnNo);
+}
+// task 2
+{
+      function fullName(names){
+      // console.log('hello' + names)
+}
+// fullName(' sani');
+}
+// task 3
+{
+      function odd_even (x){
+      if(x % 2 === 0 ){
+            return 'even'
+      }
+      else{
+            return 'odd'
+      }
+}
+// const output = odd_even(9);
+// console.log(output)
+}
+// task 4
+{
+      // function biggestNo (array){
+//       let bigNumber = array[0];
+//       for(let i = 1 ; i < array.length ; i++){
+//             if(array[i] > bigNumber){
+//                   bigNumber = array[i]
+//             }
+//       }
+//       return bigNumber;
+
+// }
+// const numberS = [2,5,8,9,14,57,79];
+// const result = biggestNo(numberS);
+// console.log(result)
+}
