@@ -348,10 +348,19 @@ else{
 }
 // ------------------- 01 | 06 | 2025 ----------------------------------
 // task 1
-let i = 101 ;
-if(i % 5 === 0){
-      console.log('divisible by 5')
+{
+      let i = 101 ;
+// if(i % 5 === 0){
+//       console.log('divisible by 5');
+// }
+// else{
+//       console.log('not divisible by 5');
+// }
 }
-else{
-      console.log('not divisible by 5')
+// task 2
+let nameMan = 4;
+if(nameMan > 5){
+      console.log('long')
+}else{
+      console.log('short');
 }
