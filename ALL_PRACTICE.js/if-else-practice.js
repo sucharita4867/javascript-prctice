@@ -358,9 +358,28 @@ else{
 // }
 }
 // task 2
-let nameMan = 4;
-if(nameMan > 5){
-      console.log('long')
-}else{
-      console.log('short');
+{
+      // let nameMan = 4;
+// if(nameMan > 5){
+//       console.log('long')
+// }else{
+//       console.log('short');
+// }
+// task 3
+}
+// task 3
+{
+      // let p = 9 ;
+// let o = 8 ;
+// let i = 8 ;
+// if(p > o && p > i){
+//       console.log('this is big', p)
+// }
+// else if(o > p && o > i){
+//       console.log('this is big', o)
+// }
+
+// else if(i > p && i > o){
+//       console.log('this is big', i)
+// }
 }
