@@ -383,3 +383,11 @@ else{
 //       console.log('this is big', i)
 // }
 }
+// task 4
+let yearS = 2020 ;
+if((yearS % 4 === 0) && (yearS % 100 !== 0 || yearS % 400 === 0)){
+      console.log('leapYear', yearS)
+}
+else{
+      console.log('not leapYear', yearS)
+}
