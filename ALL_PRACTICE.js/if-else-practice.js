@@ -336,13 +336,22 @@ else{
 {
       // let i = 340 ;
 // let o =340 ;
-if(i > o ){
-      console.log('this is big number :', i);
+// if(i > o ){
+//       console.log('this is big number :', i);
+// }
+// else if(o > i){
+//       console.log('this number is big :', o)
+// }
+// else{
+//       console.log('equal')
+// }
 }
-else if(o > i){
-      console.log('this number is big :', o)
+// ------------------- 01 | 06 | 2025 ----------------------------------
+// task 1
+let i = 101 ;
+if(i % 5 === 0){
+      console.log('divisible by 5')
 }
 else{
-      console.log('equal')
-}
+      console.log('not divisible by 5')
 }
