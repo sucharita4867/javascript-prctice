@@ -106,9 +106,47 @@ if(evenNos.includes(number)){
 }
 // ----------------------------02 | 06 | 2025 ------------------------------------
 // task 1
-let numbers = [5 , 10, 15, 20, 25, 30, 35, 40];
+{
+      let numbers = [5 , 10, 15, 20, 25, 30, 35, 40];
 let sum = 0 ;
 for(let i = 0 ; i < numbers.length ; i++){
       sum += numbers[i];
 }
-console.log('sum numbers :', sum)
+// console.log('sum numbers :', sum)
+}
+// task 2
+{
+      let fruits = ["apple", "banana", "mango"];
+fruits.push('orange');
+// console.log(fruits);
+}
+// task 3
+{
+      let data = [1, 3, 5, 7, 9 ,20 ,59, 69];
+const newArray = [] ;
+for(let o = 0 ; o < data.length ; o++){
+      newArray.push(data[o] * 2);
+}
+// console.log('2 gun number :', newArray)
+}
+
+
+// task 4(incomplete)
+{
+      let numbers = [2, 4, 6, 8, 10];
+if(numbers.includes(6)){
+      // console.log('6 is found :', numbers);
+}
+else{
+      console.log('6 id not found :', numbers)
+}
+}
+// task 5
+let mixed = [1, 2, 3, 4, 5, 6, 9,8];
+let even = [];
+for(let i = 0 ; i < mixed.length ; i++){
+      if(mixed[i] % 2 === 0){
+            even.push(mixed[i]);
+      }
+}
+console.log('even no :', even)
