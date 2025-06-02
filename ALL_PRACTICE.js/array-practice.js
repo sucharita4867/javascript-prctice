@@ -104,3 +104,11 @@ if(evenNos.includes(number)){
       let evenNos = [2,4,3,7,9,8,12,43,45,66,46,14,34,43];
 // console.log(evenNos.length);
 }
+// ----------------------------02 | 06 | 2025 ------------------------------------
+// task 1
+let numbers = [5 , 10, 15, 20, 25, 30, 35, 40];
+let sum = 0 ;
+for(let i = 0 ; i < numbers.length ; i++){
+      sum += numbers[i];
+}
+console.log('sum numbers :', sum)
