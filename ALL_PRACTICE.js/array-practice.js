@@ -149,4 +149,7 @@ for(let i = 0 ; i < mixed.length ; i++){
             even.push(mixed[i]);
       }
 }
-console.log('even no :', even)
+// console.log('even no :', even)
+// task 3
+let i = 0 ;
+console.log(i);
