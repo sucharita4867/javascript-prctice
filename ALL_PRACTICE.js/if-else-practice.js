@@ -384,10 +384,21 @@ else{
 // }
 }
 // task 4
-let yearS = 2020 ;
+{
+      let yearS = 2020 ;
 if((yearS % 4 === 0) && (yearS % 100 !== 0 || yearS % 400 === 0)){
-      console.log('leapYear', yearS)
+      // console.log('leapYear', yearS)
 }
 else{
-      console.log('not leapYear', yearS)
+      // console.log('not leapYear', yearS)
+}
+}
+// --------------------------04 | 06 |2025 ------------------------------
+// task 1
+let age = 90 ;
+if(age >= 18){
+      console.log('You are eligible for driving license');
+}
+else{
+      console.log('you are not eligible for driving license')
 }
