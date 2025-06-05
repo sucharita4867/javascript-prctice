@@ -142,7 +142,8 @@ else{
 }
 }
 // task 5
-let mixed = [1, 2, 3, 4, 5, 6, 9,8];
+{
+      let mixed = [1, 2, 3, 4, 5, 6, 9,8];
 let even = [];
 for(let i = 0 ; i < mixed.length ; i++){
       if(mixed[i] % 2 === 0){
@@ -150,7 +151,23 @@ for(let i = 0 ; i < mixed.length ; i++){
       }
 }
 // console.log('even no :', even)
-// task 3
-// let i = 0 ;
-// console.log(i);
+}
+// --------------- 05 | 06 | 2025 -------------------
+// task 1
+let fruits = ["apple", "banana", "mango"];
+for(let i = 0; i < fruits.length ; i++){
+      // console.log(fruits[i]);
+}
+// task 2
+let numbers = [5, 8, 2, 17, 3] ;
+let k = numbers[0];
+console.log('before loop :', k);
+for(let o = 1 ;o < numbers.length ; o++){
+      // console.log(numbers[o]);
+      if(numbers[o] > k){
+            k = numbers[o]
+      }
+}
+console.log('after loop :', k);
+
 
