@@ -395,10 +395,31 @@ else{
 }
 // --------------------------04 | 06 |2025 ------------------------------
 // task 1
-let age = 90 ;
+{
+      let age = 90 ;
 if(age >= 18){
-      console.log('You are eligible for driving license');
+      // console.log('You are eligible for driving license');
 }
 else{
-      console.log('you are not eligible for driving license')
+      // console.log('you are not eligible for driving license')
+}
+}
+// task 2
+{
+      let age = 4;
+if(age >= 18){
+      // console.log('adult');
+}else{
+      // console.log('minor')
+}
+}
+// task 2
+{
+      let oddAndEven = 90 ;
+if(oddAndEven % 2 === 0){
+      // console.log('even no')
+}
+else{
+      // console.log('odd no')
+}
 }
