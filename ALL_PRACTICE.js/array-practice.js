@@ -159,7 +159,8 @@ for(let i = 0; i < fruits.length ; i++){
       // console.log(fruits[i]);
 }
 // task 2
-let numbers = [5, 8, 2, 17, 3] ;
+{
+      let numbers = [5, 8, 2, 17, 3] ;
 let k = numbers[0];
 console.log('before loop :', k);
 for(let o = 1 ;o < numbers.length ; o++){
@@ -168,6 +169,7 @@ for(let o = 1 ;o < numbers.length ; o++){
             k = numbers[o]
       }
 }
-console.log('after loop :', k);
+// console.log('after loop :', k);
+}
 
 
