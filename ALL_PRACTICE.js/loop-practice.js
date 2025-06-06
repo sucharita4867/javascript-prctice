@@ -326,16 +326,14 @@ while(i > 0){
 }
 }
 // task 2
-// for(let k = 20 ; k >= 0 ; k++);{
-//    console.log(k)
-// }
-
-let arrayEvenNo = 0 ;
-while (arrayEvenNo < 20){
+{
+   let arrayEvenNo = 0 ;
+   while (arrayEvenNo < 20){
    arrayEvenNo ++ ;
-   console.log(arrayEvenNo)
+   // console.log(arrayEvenNo)
    if(arrayEvenNo % 2 === 0){
-      console.log('even no :', arrayEvenNo)
+      // console.log('even no :', arrayEvenNo);
    }
+}
 }
 

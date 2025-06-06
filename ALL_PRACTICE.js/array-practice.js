@@ -154,15 +154,17 @@ for(let i = 0 ; i < mixed.length ; i++){
 }
 // --------------- 05 | 06 | 2025 -------------------
 // task 1
-let fruits = ["apple", "banana", "mango"];
+{
+      let fruits = ["apple", "banana", "mango"];
 for(let i = 0; i < fruits.length ; i++){
       // console.log(fruits[i]);
+}
 }
 // task 2
 {
       let numbers = [5, 8, 2, 17, 3] ;
 let k = numbers[0];
-console.log('before loop :', k);
+// console.log('before loop :', k);
 for(let o = 1 ;o < numbers.length ; o++){
       // console.log(numbers[o]);
       if(numbers[o] > k){
@@ -171,5 +173,33 @@ for(let o = 1 ;o < numbers.length ; o++){
 }
 // console.log('after loop :', k);
 }
-
-
+// ------------------- 07 | 06 | 2025 ---------------------
+// task 1
+{
+      let numbers = [2, 5, 8, 11, 14, 17, 23, 28];
+let evenNo = numbers[0];
+for (let k = 0 ; k < numbers.length ; k++){
+      // console.log(numbers[k]);
+      if(numbers[k] % 2 === 0){
+            // console.log('even no :', numbers[k]);
+      }
+}
+}
+// task 2
+{
+      let fruits = ["apple", "banana", "cherry", "mango"];
+for(let i = 0 ; i < fruits.length ; i++){
+      // console.log(fruits[i])
+}
+}
+// task 3
+let marks = [85, 42, 77, 90, 61];
+for(let i = 0 ; i < marks.length ; i++){
+      console.log(marks[i]);
+      if(marks[i] >= 50){
+            console.log('passed')
+      }
+      else{
+            console.log('failed')
+      }
+}
