@@ -223,3 +223,13 @@ for(let i = 0 ; i < numbers.length ; i++){
 }
 // console.log(sum)
 }
+// --------------mixed question Array or loop-------------------
+let marks = [90, 45, 77, 30, 60, 26];
+for(let k = 0 ; k < marks.length ; k++){
+      console.log(marks[k])
+      if(marks[k] < 33){
+            console.log('fail')
+      }else{
+            console.log('passed')
+      }
+}

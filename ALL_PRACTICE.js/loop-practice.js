@@ -337,9 +337,23 @@ while(i > 0){
 }
 }
 // ---------------- 07 | 06 | 2025 --------------------
-for(let i = 0 ; i <= 20 ; i++){
-   console.log(i)
+// task 1
+{
+   for(let i = 0 ; i <= 20 ; i++){
+   // console.log(i)
    if(i % 2 === 0){
-      console.log('even no :', i)
+      // console.log('even no :', i)
    }
+}
+}
+// task 2
+{
+   for(let p = 0 ; p <= 20 ; p++){
+   // console.log(p)
+   if(p % 2 === 0){
+      // console.log('even no :', p);
+   }else{
+      // console.log('odd no :', p)
+   }
+}
 }
