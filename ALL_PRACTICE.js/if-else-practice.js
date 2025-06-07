@@ -425,11 +425,33 @@ else{
 }
 // --------------- 07 | 06 | 2025 ----------------------
 // task 1
-let age = 90 ;
-if(age <= 18){
-      console.log('minor')
-}else if(age > 18 && age < 60){
-      console.log('adult')
+{
+      // let age = 90 ;
+// if(age <= 18){
+      // console.log('minor')
+// }else if(age > 18 && age < 60){
+      // console.log('adult')
+// }else{
+      // console.log('senior citizen')
+      // }
+}
+// task 2
+{
+      let number = 90 ;
+if(number > 10){
+      // console.log('big number')
 }else{
-      console.log('senior citizen')
+      // console.log('small number')
+}
+}
+// task 3
+let a = 9 ;
+let b = 84 ;
+let c = 754 ;
+if(a > b && a > c){
+      console.log('this is big number')
+}else if(b > a && b > c){
+      console.log('this is big number')
+}else{
+      console.log('this is big number')
 }
