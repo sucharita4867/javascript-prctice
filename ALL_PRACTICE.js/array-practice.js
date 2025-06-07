@@ -213,3 +213,13 @@ for(let i = 0 ; i < colors.length ; i++){
       // console.log(colors[i])
 }
 }
+// task 5
+{
+      let numbers = [10, 25, 30, 45, 60, 89 ,56 ,40];
+let sum = 0;
+for(let i = 0 ; i < numbers.length ; i++){
+      // console.log(numbers[i])
+      sum = sum + numbers[i];
+}
+// console.log(sum)
+}
