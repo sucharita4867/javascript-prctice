@@ -196,12 +196,20 @@ for(let i = 0 ; i < fruits.length ; i++){
 {
       let marks = [85, 42, 77, 90, 61, 20, 50];
       for(let i = 0 ; i < marks.length ; i++){
-      console.log(marks[i]);
+      // console.log(marks[i]);
       if(marks[i] >= 50){
             // console.log('passed')
       }
       else{
             // console.log('failed')
       }
+}
+}
+// task 4
+{
+      let colors = ["red", "green", "blue", "yellow"];
+// console.log(colors)
+for(let i = 0 ; i < colors.length ; i++){
+      // console.log(colors[i])
 }
 }

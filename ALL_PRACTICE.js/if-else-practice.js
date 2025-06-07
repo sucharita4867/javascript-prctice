@@ -445,13 +445,15 @@ if(number > 10){
 }
 }
 // task 3
-let a = 9 ;
+{
+      let a = 9 ;
 let b = 84 ;
 let c = 754 ;
 if(a > b && a > c){
-      console.log('this is big number')
+      // console.log('this is big number')
 }else if(b > a && b > c){
-      console.log('this is big number')
+      // console.log('this is big number')
 }else{
-      console.log('this is big number')
+      // console.log('this is big number')
+}
 }
