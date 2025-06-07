@@ -193,13 +193,15 @@ for(let i = 0 ; i < fruits.length ; i++){
 }
 }
 // task 3
-let marks = [85, 42, 77, 90, 61];
-for(let i = 0 ; i < marks.length ; i++){
+{
+      let marks = [85, 42, 77, 90, 61, 20, 50];
+      for(let i = 0 ; i < marks.length ; i++){
       console.log(marks[i]);
       if(marks[i] >= 50){
-            console.log('passed')
+            // console.log('passed')
       }
       else{
-            console.log('failed')
+            // console.log('failed')
       }
+}
 }

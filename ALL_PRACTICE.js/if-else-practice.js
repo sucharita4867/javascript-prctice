@@ -423,3 +423,13 @@ else{
       // console.log('odd no')
 }
 }
+// --------------- 07 | 06 | 2025 ----------------------
+// task 1
+let age = 90 ;
+if(age <= 18){
+      console.log('minor')
+}else if(age > 18 && age < 60){
+      console.log('adult')
+}else{
+      console.log('senior citizen')
+}
