@@ -368,8 +368,10 @@ while(i > 0){
 }
 }
 // task 2
-let n = 5 ;
+{
+   let n = 5 ;
 n = 'hello javascript';
 for(let i = 0 ; i < 5 ; i++){
-   console.log(n);
+   // console.log(n);
+}
 }

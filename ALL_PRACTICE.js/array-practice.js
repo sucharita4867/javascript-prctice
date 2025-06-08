@@ -223,7 +223,26 @@ for(let i = 0 ; i < numbers.length ; i++){
 }
 // console.log(sum)
 }
+// -------------------------- 08 |06 | 2025 ------------------------
+// task 1
+{
+      let names = ["Rina", "Mina", "Tina", "Sina"];
+      for(const name of names){
+            // console.log(name,'has',name.length,'latter')
+      }
+}
+// task 2
+{
+      let prices = [200, 300, 150, 500, 100,50];
+      for(const price of prices){
+            // console.log(price);
+            if(price < 200){
+                  // console.log(price)
+            }
+      }
+}
 // --------------mixed question Array or loop-------------------
+// task 1
 {
       let marks = [90, 45, 77, 30, 60, 26];
 for(let k = 0 ; k < marks.length ; k++){
@@ -235,21 +254,27 @@ for(let k = 0 ; k < marks.length ; k++){
       }
 }
 }
-// -------------------------- 08 |06 | 2025 ------------------------
-// task 1
-{
-      let names = ["Rina", "Mina", "Tina", "Sina"];
-      for(const name of names){
-      // console.log(name,'has',name.length,'latter')
-}
-}
 // task 2
 {
-      let prices = [200, 300, 150, 500, 100,50];
-for(const price of prices){
-      // console.log(price);
-      if(price < 200){
-            // console.log(price)
+      let ages = [5, 15, 25,18, 65, 80];
+for(let i = 0 ; i < ages.length ; i++){
+      // console.log(ages[i]);
+      if(ages[i] < 18){
+            // console.log('child')
+      }else if(ages[i] >= 18 && ages[i] < 60){
+            // console.log('adult')
+      }else{
+            // console.log('senior')
       }
 }
+}
+// task 3
+let scores = [75, 40, 95, 22, 88];
+for(let o = 0 ; o < scores.length ; o++){
+      // console.log(scores[o]);
+      if(scores[o] < 50){
+            // console.log('fail')
+      }else{
+            // console.log('passed')
+      }
 }
