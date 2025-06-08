@@ -457,3 +457,13 @@ if(a > b && a > c){
       // console.log('this is big number')
 }
 }
+// ------------------------ 08 | 06 | 2025 ---------------------------
+// task 1 
+let temp = 5 ;
+if(temp >= 30){
+      console.log('it is hot')
+}else if(temp >= 15 && temp < 30){
+      console.log('normal weather')
+}else{
+      console.log('it is cold')
+}
