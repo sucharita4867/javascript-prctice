@@ -459,11 +459,23 @@ if(a > b && a > c){
 }
 // ------------------------ 08 | 06 | 2025 ---------------------------
 // task 1 
-let temp = 5 ;
+{
+      let temp = 5 ;
 if(temp >= 30){
-      console.log('it is hot')
+      // console.log('it is hot')
 }else if(temp >= 15 && temp < 30){
-      console.log('normal weather')
+      // console.log('normal weather')
 }else{
-      console.log('it is cold')
+      // console.log('it is cold')
+}
+}
+// task 2
+{
+      let username = "admin";
+let password = "1234";
+if(username === 'admin' && password === '1234'){
+      // console.log('Login successful')
+}else{
+      // console.log('Invalid login')
+}
 }

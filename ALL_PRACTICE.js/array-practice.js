@@ -235,3 +235,21 @@ for(let k = 0 ; k < marks.length ; k++){
       }
 }
 }
+// -------------------------- 08 |06 | 2025 ------------------------
+// task 1
+{
+      let names = ["Rina", "Mina", "Tina", "Sina"];
+      for(const name of names){
+      // console.log(name,'has',name.length,'latter')
+}
+}
+// task 2
+{
+      let prices = [200, 300, 150, 500, 100,50];
+for(const price of prices){
+      // console.log(price);
+      if(price < 200){
+            // console.log(price)
+      }
+}
+}
