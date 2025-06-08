@@ -357,3 +357,19 @@ while(i > 0){
    }
 }
 }
+// ------------------------ 08 | 06 | 2025 ---------------------------
+// task 1
+{
+   for(let i = 1 ;i <= 50 ; i++){
+   // console.log(i);
+   if(i % 5 === 0){
+      // console.log('divided dy 5 :', i)
+   }
+}
+}
+// task 2
+let n = 5 ;
+n = 'hello javascript';
+for(let i = 0 ; i < 5 ; i++){
+   console.log(n);
+}
