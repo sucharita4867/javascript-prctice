@@ -280,3 +280,13 @@ for(let o = 0 ; o < scores.length ; o++){
       }
 }
 }
+// task 4
+let numbers = [5, 12, 18, 25, 40];
+for(let i = 0 ; i < numbers.length ; i++){
+      console.log(numbers[i]);
+      if(numbers[i] % 2 === 0){
+            console.log("Even number: X")
+      }else{
+            console.log("Odd number: X");
+      }
+}
