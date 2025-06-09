@@ -241,7 +241,7 @@ for(let i = 0 ; i < numbers.length ; i++){
             }
       }
 }
-// --------------mixed question Array or loop-------------------
+// --------------mixed question Array or loop or if else-------------------
 // task 1
 {
       let marks = [90, 45, 77, 30, 60, 26];
@@ -269,7 +269,8 @@ for(let i = 0 ; i < ages.length ; i++){
 }
 }
 // task 3
-let scores = [75, 40, 95, 22, 88];
+{
+      let scores = [75, 40, 95, 22, 88];
 for(let o = 0 ; o < scores.length ; o++){
       // console.log(scores[o]);
       if(scores[o] < 50){
@@ -277,4 +278,5 @@ for(let o = 0 ; o < scores.length ; o++){
       }else{
             // console.log('passed')
       }
+}
 }

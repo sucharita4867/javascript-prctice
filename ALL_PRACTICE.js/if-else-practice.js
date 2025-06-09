@@ -479,3 +479,17 @@ if(username === 'admin' && password === '1234'){
       // console.log('Invalid login')
 }
 }
+// --------------------- 09 | 06 | 2025 -------------------------
+// task 1
+let grade = 25;
+if(grade >= 80){
+      console.log('A+')
+}else if(grade >= 60 && grade <= 79){
+      console.log('A')
+}else if(grade >= 50 && grade <= 59){
+      console.log('B')
+}else if(grade >= 33 && grade <= 49){
+      console.log('c')
+}else{
+      console.log('Fail')
+}
