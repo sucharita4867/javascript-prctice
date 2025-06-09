@@ -481,15 +481,28 @@ if(username === 'admin' && password === '1234'){
 }
 // --------------------- 09 | 06 | 2025 -------------------------
 // task 1
-let grade = 25;
-if(grade >= 80){
-      console.log('A+')
-}else if(grade >= 60 && grade <= 79){
-      console.log('A')
-}else if(grade >= 50 && grade <= 59){
-      console.log('B')
-}else if(grade >= 33 && grade <= 49){
-      console.log('c')
-}else{
-      console.log('Fail')
+{
+      // let grade = 25;
+// if(grade >= 80){
+      // console.log('A+')
+// }else if(grade >= 60 && grade <= 79){
+      // console.log('A')
+// }else if(grade >= 50 && grade <= 59){
+      // console.log('B')
+// }else if(grade >= 33 && grade <= 49){
+      // console.log('c')
+// }else{
+      // console.log('Fail')
+// }
+}
+// task 2
+{
+      // // let num = 0 ;
+// if(num > 0){
+//       // console.log('positive');
+// }else if(num < 0){
+//       // console.log('negaitive')
+// }else{
+//       // console.log('zero')
+// }
 }

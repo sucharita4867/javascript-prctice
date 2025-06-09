@@ -375,3 +375,19 @@ for(let i = 0 ; i < 5 ; i++){
    // console.log(n);
 }
 }
+// ---------------- 09 | 06 |2025 ---------------------------
+
+// task 1
+// let numberD = 50 ;
+// for(let i = 1 ; i < numberD ; i++){
+   // console.log(numberD[i])
+   // if(numbers[i] % 3 === 0){
+      // console.log(numbers[i] , 'divided by 3')
+   // }
+// let divitionNo = 50 ;
+for(let i = 1 ; i <= 50 ; i++){
+   console.log(i);
+   if(i % 3 === 0){
+      console.log('divided by 3 :', i)
+   }
+}
