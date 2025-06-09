@@ -386,3 +386,10 @@ for(let i = 0 ; i < 5 ; i++){
 //    }
 // }
 }
+// task 2
+let o = ''
+for(let i = 0 ; i <= 10 ; i++){
+   // console.log(i)
+   reverse = i + o ;
+   console.log(reverse)
+}
