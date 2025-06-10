@@ -386,10 +386,20 @@ for(let i = 0 ; i < 5 ; i++){
 //    }
 // }
 }
-// task 2
-let o = ''
-for(let i = 0 ; i <= 10 ; i++){
-   // console.log(i)
-   reverse = i + o ;
-   console.log(reverse)
+// -------------------- 10 | 06 | 2025 -----------------------
+// task 1
+let scores = [88, 45, 73, 60, 29];
+for(let i = 0 ; i < scores.length ; i++){
+   // console.log(scores[i]);
+   if(scores[i] >= 80){
+   console.log("Scores :" , scores[i] ,'- Grade: A+')
+   }else if(scores[i] >= 60 && scores[i] <= 79){
+   console.log("Scores :" , scores[i] ,'- Grade: A')
+   }else if(scores[i] >= 50 && scores[i] <= 59){
+   console.log("Scores :" , scores[i] ,'- Grade: B')
+   }else if(scores[i] >= 33 && scores[i] <= 49){
+   console.log("Scores :" , scores[i] ,'- Grade: C')
+   }else{
+   console.log("Scores :" , scores[i] ,'- Grade: Fail')
+}
 }
