@@ -388,18 +388,33 @@ for(let i = 0 ; i < 5 ; i++){
 }
 // -------------------- 10 | 06 | 2025 -----------------------
 // task 1
-let scores = [88, 45, 73, 60, 29];
-for(let i = 0 ; i < scores.length ; i++){
-   // console.log(scores[i]);
-   if(scores[i] >= 80){
-   console.log("Scores :" , scores[i] ,'- Grade: A+')
-   }else if(scores[i] >= 60 && scores[i] <= 79){
-   console.log("Scores :" , scores[i] ,'- Grade: A')
-   }else if(scores[i] >= 50 && scores[i] <= 59){
-   console.log("Scores :" , scores[i] ,'- Grade: B')
-   }else if(scores[i] >= 33 && scores[i] <= 49){
-   console.log("Scores :" , scores[i] ,'- Grade: C')
-   }else{
-   console.log("Scores :" , scores[i] ,'- Grade: Fail')
+{
+//    let scores = [88, 45, 73, 60, 29];
+// for(let i = 0 ; i < scores.length ; i++){
+//    // console.log(scores[i]);
+//    if(scores[i] >= 80){
+//    console.log("Scores :" , scores[i] ,'- Grade: A+')
+//    }else if(scores[i] >= 60 && scores[i] <= 79){
+//    console.log("Scores :" , scores[i] ,'- Grade: A')
+//    }else if(scores[i] >= 50 && scores[i] <= 59){
+//    console.log("Scores :" , scores[i] ,'- Grade: B')
+//    }else if(scores[i] >= 33 && scores[i] <= 49){
+//    console.log("Scores :" , scores[i] ,'- Grade: C')
+//    }else{
+//    console.log("Scores :" , scores[i] ,'- Grade: Fail')
+// }
+// }
 }
+// task 2
+// let words = ["apple", "banana", "cat", "elephant", "fan", "pineapple"];
+// for(let k = 0 ;k < words.length ;k++){
+//    console.log(words[k])
+//    if(words )
+// }
+// task 3
+for(let number = 0 ; number <= 30 ;number++){
+   // console.log(number)
+   if(number % 3 === 0 && number % 5 === 0){
+      console.log('divided by 3 & 5 :', number)
+   }
 }
