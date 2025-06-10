@@ -14,8 +14,20 @@ const mobile ={
 //       console.log(mobile[prop])
 // }
 
+// const keys = Object.keys(mobile);
+// console.log(keys);
+// for(const key of keys){
+//       console.log(key,':', mobile[key])
+// }
+// ----------------------------------------------------------
+for(const prob in mobile){
+      // console.log(prob);
+      // console.log(mobile[prob]);
+}
+
 const keys = Object.keys(mobile);
 console.log(keys);
-for(const key of keys){
-      console.log(key,':', mobile[key])
+
+for (const key of keys){
+      console.log(key, " : ", mobile[key])
 }

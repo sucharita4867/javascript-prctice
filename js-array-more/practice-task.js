@@ -21,7 +21,7 @@ for (const color of colors){
 //             evenNumbers.push
 //       }
 // }
-// -----------------------practice task - 3 ----------------------------
+// -----------------------practice task - 3 ------------------incomplete
 const member = ['Tom', 'Tim', 'Tin', 'Tik'] ;
 const member1 = member.concat()
 console.log(member1)
