@@ -508,9 +508,21 @@ if(username === 'admin' && password === '1234'){
 }
 // ------------------- 11 | 06 | 2025 --------------------
 // task 1
-let age = 2 ;
-if(age > 18){
-      console.log('You are an adult')
-}else{
-      console.log('You are not an adult yet')
+{
+      // let age = 2 ;
+// if(age > 18){
+//       console.log('You are an adult')
+// }else{
+//       console.log('You are not an adult yet')
+// }
+}
+// task 2
+{
+      // let a = 499 ;
+// let b = 89 ;
+// if(a > b){
+//       console.log('a number is big')
+// } else{
+//       console.log('b number is big')
+// }
 }

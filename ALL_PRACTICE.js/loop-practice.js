@@ -420,3 +420,15 @@ for(let i = 0 ; i < 5 ; i++){
 //    }
 // }
 }
+// ------------------- 11 | 06 | 2025 --------------------
+// task 1
+{
+   // for(let i = 0 ; i <= 30 ; i++){
+//    // console.log(i);
+//    if(i % 2 === 0){
+//       console.log('even no :', i)
+//    }else{
+//       console.log('odd no :', i)
+//    }
+// }
+}
