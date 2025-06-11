@@ -308,4 +308,18 @@ for(let o = 0 ; o < scores.length ; o++){
 // }
 }
 // task 2
-let fruits = ["Apple", "Banana", "Mango", "Orange"];
+// -------------------------------------
+// let fruits = ["Apple", "Banana", "Mango", "Orange"];
+// let rev = fruits.split().reverse().join('');
+// console.log(rev);
+// -----------------------------
+// task 3
+let marks = [85, 42, 30, 66, 90];
+for(let i = 0 ; i < marks.length ; i++){
+      console.log(marks[i])
+      if(marks[i] >= 40){
+            console.log('pass')
+      }else{
+            console.log('fail')
+      }
+}

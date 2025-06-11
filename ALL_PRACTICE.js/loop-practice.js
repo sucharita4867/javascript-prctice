@@ -432,3 +432,12 @@ for(let i = 0 ; i < 5 ; i++){
 //    }
 // }
 }
+// task 2
+// let numbers = [33, 14, 56, 2, 79, 8];
+// let smallNo = 0 ;
+// for(let i = 1 ; i < numbers.length ; i++){
+//    // console.log(numbers[i])
+//    if(smallNo > numbers[i]){
+//       console.log(smallNo)
+//    }
+// }
