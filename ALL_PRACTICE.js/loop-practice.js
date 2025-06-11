@@ -412,9 +412,11 @@ for(let i = 0 ; i < 5 ; i++){
 //    if(words )
 // }
 // task 3
-for(let number = 0 ; number <= 30 ;number++){
-   // console.log(number)
-   if(number % 3 === 0 && number % 5 === 0){
-      console.log('divided by 3 & 5 :', number)
-   }
+{
+//    for(let number = 0 ; number <= 30 ;number++){
+//    // console.log(number)
+//    if(number % 3 === 0 && number % 5 === 0){
+//       console.log('divided by 3 & 5 :', number)
+//    }
+// }
 }

@@ -506,3 +506,11 @@ if(username === 'admin' && password === '1234'){
 //       // console.log('zero')
 // }
 }
+// ------------------- 11 | 06 | 2025 --------------------
+// task 1
+let age = 2 ;
+if(age > 18){
+      console.log('You are an adult')
+}else{
+      console.log('You are not an adult yet')
+}
