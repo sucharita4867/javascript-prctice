@@ -292,3 +292,20 @@ for(let o = 0 ; o < scores.length ; o++){
 //       }
 // }
 }
+// ------------------- 11 | 06 | 2025 --------------------
+// task 1
+{
+      // const find = 'Rina';
+// let users = ["Tina", "Rina", "Mina", "Bina"];
+//       for(let i = 0 ; i < users.length; i++){
+//             // console.log(users[i])
+//             if(users[i] === find){
+//                   console.log(find)
+//             }
+//             // else{
+//             //       console.log('Not Found Rina')
+//             // }
+// }
+}
+// task 2
+let fruits = ["Apple", "Banana", "Mango", "Orange"];
