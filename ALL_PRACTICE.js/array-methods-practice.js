@@ -32,11 +32,12 @@ fruits.shift();
 // names.join("-");
 // console.log(names.join("-"));
 }
-// task 6( INCOMPLETE)
+// task 6
 {
-      // let animals = ["cat", "dog", "cow", "goat"];
-// let index = animals.indexOf('cow');
-// console.log(index , 1 ,'lion');
+      let animals = ["cat", "dog", "cow", "goat"];
+      const animal = animals.splice(2 , 1 ,"lion");
+      // console.log(animals);
+      // console.log(animal);
 }
 // task 7
 {
@@ -44,4 +45,51 @@ fruits.shift();
 numbers.unshift(0);
 numbers.push(15);
 // console.log(numbers)
+}
+// task 8
+{
+      let letters = ["a", "b", "c", "d", "e"];
+letters.reverse();
+// console.log(letters.join('*'));
+}
+// task 9
+{
+      let tools = ["pen", "eraser", "scale", "pencil"];
+      let tool = tools.splice(1 , 1);
+      // console.log(tools);
+}
+// task 10
+{
+      let food = ["rice", "dal", "egg", "fish"];
+const foods = food.splice(2,1,"paneer");
+// console.log(foods)
+// console.log(food)
+}
+// task 11
+{
+      let prices = [100, 200, 300, 400, 500];
+const price = prices.slice(0 , 3);
+// console.log(price);
+// console.log(prices);
+}
+// task 12
+let numbers = [5, 10, 15, 20];
+let sum = 0;
+for(let i = 0 ; i < numbers.length ; i++){
+     sum = sum + numbers[i];
+//      sum += numbers[i];
+}
+// console.log(sum);
+// using reduce 
+let inetial = 0 ;
+console.log(numbers.reduce(
+      (prev , curr)=> prev + curr, 0
+))
+
+ //delete all friend after anu
+{
+      const friends = ['sucho','anu','riya','sana','mona','kahna']
+const deleted = friends.splice(1,2)
+// console.log(`we are died now ${deleted}`)
+// console.log(friends)
 }
