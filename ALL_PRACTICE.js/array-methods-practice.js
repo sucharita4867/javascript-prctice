@@ -27,6 +27,21 @@ fruits.shift();
 // console.log(part)
 }
 // task 5
-let names = ["Rina", "Mina", "Tina"];
+{
+      let names = ["Rina", "Mina", "Tina"];
 // names.join("-");
-console.log(names.join("-"));
+// console.log(names.join("-"));
+}
+// task 6( INCOMPLETE)
+{
+      // let animals = ["cat", "dog", "cow", "goat"];
+// let index = animals.indexOf('cow');
+// console.log(index , 1 ,'lion');
+}
+// task 7
+{
+      let numbers = [3, 6, 9, 12];
+numbers.unshift(0);
+numbers.push(15);
+// console.log(numbers)
+}
