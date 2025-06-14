@@ -88,10 +88,23 @@ let inetial = 0 ;
 // ))
 }
 // task 13
-let chars = ["x", "y", "z"];
+{
+      let chars = ["x", "y", "z"];
 let char = chars.indexOf('y')
-console.log("Yes, found in middle")
-
+// console.log("Yes, found in middle")
+}
+// task 14
+{
+      let colors = ["red", "green", "blue", "yellow"];
+let firstNo = colors[0];
+let lastNo = colors[colors.length - 1];
+const result = firstNo + "-" + lastNo ;
+// console.log(result);
+}
+// task 15
+let items = ["milk", "bread", "butter"];
+let result = items.join(',');
+console.log(result);
  //delete all friend after anu
 {
       const friends = ['sucho','anu','riya','sana','mona','kahna']
