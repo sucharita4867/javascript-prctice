@@ -73,18 +73,24 @@ const price = prices.slice(0 , 3);
 // console.log(prices);
 }
 // task 12
-let numbers = [5, 10, 15, 20];
+{
+      let numbers = [5, 10, 15, 20];
 let sum = 0;
 for(let i = 0 ; i < numbers.length ; i++){
      sum = sum + numbers[i];
 //      sum += numbers[i];
 }
 // console.log(sum);
-// using reduce 
+//----------------- using reduce ----------------------
 let inetial = 0 ;
-console.log(numbers.reduce(
-      (prev , curr)=> prev + curr, 0
-))
+// console.log(numbers.reduce(
+//       (prev , curr)=> prev + curr, 0
+// ))
+}
+// task 13
+let chars = ["x", "y", "z"];
+let char = chars.indexOf('y')
+console.log("Yes, found in middle")
 
  //delete all friend after anu
 {
