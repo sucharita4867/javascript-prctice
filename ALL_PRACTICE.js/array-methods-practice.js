@@ -102,9 +102,11 @@ const result = firstNo + "-" + lastNo ;
 // console.log(result);
 }
 // task 15
-let items = ["milk", "bread", "butter"];
+{
+      let items = ["milk", "bread", "butter"];
 let result = items.join(',');
-console.log(result);
+// console.log(result);
+}
  //delete all friend after anu
 {
       const friends = ['sucho','anu','riya','sana','mona','kahna']
@@ -112,3 +114,9 @@ const deleted = friends.splice(1,2)
 // console.log(`we are died now ${deleted}`)
 // console.log(friends)
 }
+// --------------------------------- 15 | 06 | 2025 -----------------------
+// task 1
+let names = ["Rita", "Sita", "Gita"];
+const addAnita = names.push('anita');
+console.log(addAnita)
+console.log(names);
