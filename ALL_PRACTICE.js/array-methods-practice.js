@@ -116,7 +116,9 @@ const deleted = friends.splice(1,2)
 }
 // --------------------------------- 15 | 06 | 2025 -----------------------
 // task 1
-let names = ["Rita", "Sita", "Gita"];
+{
+      let names = ["Rita", "Sita", "Gita"];
 const addAnita = names.push('anita');
-console.log(addAnita)
-console.log(names);
+// console.log(addAnita)
+// console.log(names);
+}
