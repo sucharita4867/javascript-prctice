@@ -63,6 +63,16 @@ for(let i = 0 ; i < marks.length ; i++){
 }
 }
 // task 8
-let letters = ["A", "B", "C", "D", "E"];
+{
+      let letters = ["A", "B", "C", "D", "E"];
 const letter = letters.splice(1,3);
-console.log(letter.join('-'))
+// console.log(letter.join('-'))
+}
+// -------------- 16 | 06 | 2025 ---------------
+// task 1
+let temp = 38;
+if(temp > 37){
+      console.log('You may have fever');
+}else{
+      console.log('Normal')
+}
