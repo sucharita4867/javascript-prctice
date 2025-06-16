@@ -43,3 +43,26 @@ while (i > 0){
       i-- ;
 }
 }
+// task 6
+{
+      let items = ["pen", "pencil", "eraser", "scale"];
+const item = items.splice(2,1);
+// console.log(item)
+// console.log(items)
+}
+// task 7
+{
+      let marks = [80, 45, 60, 30];
+for(let i = 0 ; i < marks.length ; i++){
+      // console.log(marks[i])
+      if(33 > marks[i]){
+            // console.log('Fail Found');
+      }else{
+            // console.log('Passed found');
+      }
+}
+}
+// task 8
+let letters = ["A", "B", "C", "D", "E"];
+const letter = letters.splice(1,3);
+console.log(letter.join('-'))
