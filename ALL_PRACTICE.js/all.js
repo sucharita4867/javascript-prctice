@@ -244,10 +244,29 @@ sum += sumNumber;
 // console.log('total no :', sumNumber)
 }
 // task 8
-let scores = [12, 55, 32, 75, 64];
-let bigNo = 1 ;
-for(let i = 1 ; i < scores.length ; i++){
+{
+      let scores = [12, 55, 32, 75, 64 ,88];
+let bigNo = scores[0] ;
+for(let i = 0 ; i < scores.length ; i++){
       if(bigNo < scores[i]){
-            console.log('bigest no :', scores[i])
+            bigNo = scores[i];
       }
 }
+// console.log('begest no :' , bigNo)
+}
+// task 9
+{
+      let inventory = ["pen", "pencil", "eraser", "scale"];
+const cake = inventory.includes('eraser');
+// console.log(cake)
+if(cake === true){
+      // console.log('Item Available');
+}else{
+      // console.log('Not in stock')
+}
+}
+// task 10
+let numbers = [2, 4, 6, 2, 4, 8, 10];
+let num = numbers.slice(2,5)
+console.log(num)
+// console.log(numbers)
