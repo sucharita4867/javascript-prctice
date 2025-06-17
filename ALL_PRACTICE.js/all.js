@@ -190,11 +190,64 @@ for(let i = 0 ; i < word.length ; i++){
 }
 // console.log(wordRev.join(''));
 }
-// task 4
-let sentence = "I love JavaScript";
-for(let i = 0 ; i < sentence.length ; i++){
-      console.log(sentence[i]);
-      if(sentence[i] === 'a,e,i,o,u'){
-            console.log()
+// task 4{CHATGPT}
+{
+      {
+      let sentence = "Programming is fun";
+      let count = 0 ;
+      for(let i = 0 ; i < sentence.length ; i++){
+      let letter = sentence[i].toLowerCase();
+      // console.log(letter)
+      if(letter === 'a' || letter === 'e' || letter === 'i' || letter === 'o' || letter === 'u'){
+            count++ ;
+      }
+}
+// console.log(count)
+}
+}
+// task 5
+{
+      let sum = 0 ;
+for(let i = 1 ; i <= 50 ; i++){
+      // console.log(i)
+      if(i % 2 === 1){
+            // console.log('odd no :', i);
+            sum += i
+      }
+}
+// console.log('sum no :', sum);
+}
+// task 6
+{
+      let num = 6;
+if(num % 3 === 0 && num % 5 === 0){
+      // console.log('FizzBuzz')
+}else if(num % 3 === 0){
+      // console.log('Fizz')
+}else if(num % 5 === 0){
+      // console.log('Buzz')
+}
+}
+// task 7 {INCOMPLETE}
+{
+      let matrix = [
+  [1, 2, 3],
+  [4, 5, 6]
+];
+let sum = 0 ;
+sum += matrix ;
+
+// console.log(matrix)
+// console.log('sum no :', sum)
+let sumNumber = sum ;
+sum += sumNumber;
+// console.log('total no :', sumNumber)
+}
+// task 8
+let scores = [12, 55, 32, 75, 64];
+let bigNo = 1 ;
+for(let i = 1 ; i < scores.length ; i++){
+      if(bigNo < scores[i]){
+            console.log('bigest no :', scores[i])
       }
 }
