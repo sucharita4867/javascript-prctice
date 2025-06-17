@@ -158,10 +158,43 @@ for(let i = 0 ; i < names.length ; i++){
 }
 // ---------- 17 | 06 | 2025 -----------
 // task 1
-let age = 39;
+{
+      let age = 39;
 let isStudent = true;
 if(age > 18 && isStudent === true){
-      console.log('Eligible for student discount')
+      // console.log('Eligible for student discount')
 }else{
-      console.log('Not eligible')
+      // console.log('Not eligible')
+}
+}
+// task 2
+{
+      let numbers = [5, 8, 12, 15, 22, 30 , 26 , 16 ,19 ,13];
+// console.log(numbers);
+let newArray = [];
+for(let i = 0 ; i < numbers.length ; i++){
+      // console.log(numbers[i])
+      if(numbers[i] > 10 && numbers[i] < 20){
+            newArray.push(numbers[i]);
+      }
+}
+// console.log(newArray)
+}
+// task 3
+{
+      let word = "banana";
+let wordRev = [];
+for(let i = 0 ; i < word.length ; i++){
+      // console.log(word[i]);
+      wordRev.unshift(word[i]);
+}
+// console.log(wordRev.join(''));
+}
+// task 4
+let sentence = "I love JavaScript";
+for(let i = 0 ; i < sentence.length ; i++){
+      console.log(sentence[i]);
+      if(sentence[i] === 'a,e,i,o,u'){
+            console.log()
+      }
 }
