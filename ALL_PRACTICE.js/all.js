@@ -150,7 +150,18 @@ if(marks > 80){
 }
 }
 // task 10
-let names = ["Rita", "Sita", "Gita"];
+{
+      let names = ["Rita", "Sita", "Gita"];
 for(let i = 0 ; i < names.length ; i++){
-      console.log(names[i] ,'is present');
+      // console.log(names[i] ,'is present');
+}
+}
+// ---------- 17 | 06 | 2025 -----------
+// task 1
+let age = 39;
+let isStudent = true;
+if(age > 18 && isStudent === true){
+      console.log('Eligible for student discount')
+}else{
+      console.log('Not eligible')
 }
