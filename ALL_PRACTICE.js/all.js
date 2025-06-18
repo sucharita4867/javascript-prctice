@@ -266,7 +266,18 @@ if(cake === true){
 }
 }
 // task 10
-let numbers = [2, 4, 6, 2, 4, 8, 10];
+{
+      let numbers = [2, 4, 6, 2, 4, 8, 10];
 let num = numbers.slice(2,5)
-console.log(num)
+// console.log(num)
 // console.log(numbers)
+}
+// -------------------- 18 | 06 | 2025 ---------------------
+// task 1
+let numbers = [12 ,34 ,32 ,45, 67, 89, 68, 99, 56];
+for(let i = 0 ; i < numbers.length ; i++){
+      // console.log(numbers[i])
+      if(numbers[i] % 2 === 0){
+            console.log('even no :', numbers[i])
+      }
+}
