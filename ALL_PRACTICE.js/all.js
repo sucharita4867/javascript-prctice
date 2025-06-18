@@ -274,10 +274,21 @@ let num = numbers.slice(2,5)
 }
 // -------------------- 18 | 06 | 2025 ---------------------
 // task 1
-let numbers = [12 ,34 ,32 ,45, 67, 89, 68, 99, 56];
+{
+      let numbers = [12 ,34 ,32 ,45, 67, 89, 68, 99, 56];
 for(let i = 0 ; i < numbers.length ; i++){
       // console.log(numbers[i])
       if(numbers[i] % 2 === 0){
-            console.log('even no :', numbers[i])
+            // console.log('even no :', numbers[i])
+      }
+}
+}
+// task 2
+let sentence = "Hello JavaScript Learners" ;
+// console.log(sentence.toLowerCase)
+for(let i = 0 ; i < sentence.length ; i++){
+      let total = sentence[i].toLowerCase();
+      if(total === 'a' || total === 'e' || total === 'i'|| total === 'o' || total === 'u'){
+            console.log('vowel letter :', total)
       }
 }
