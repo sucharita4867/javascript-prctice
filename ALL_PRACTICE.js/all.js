@@ -296,10 +296,16 @@ for(let i = 0 ; i < sentence.length ; i++){
 }
 // task 4 (vawle and consonent chake)
 let sentence = "Learning JavaScript is really fun and powerful!";
-// let pops = sentence();
-// console.log(pops)
-let sentenceNo = 0 ;
+let vowelCount = 0 ;
+let consonantCount = 0 ;
 for(let i = 0 ; i < sentence.length ; i++){
       let latter = sentence[i].toLowerCase();
-      console.log(latter)
-}
+      if(latter >= 'a' && latter <= 'z'){
+            if(latter === 'a' || latter === 'e' || latter === 'i' || latter === 'o' || latter === 'u'){
+                  vowelCount++ ;
+            }else{
+                  consonantCount ++ ;
+            }
+      }
+}console.log('vowel latter :', vowelCount.clea);
+console.log('consonant latter :',consonantCount);
