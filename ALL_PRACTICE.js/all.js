@@ -327,5 +327,26 @@ for(let i = 0 ; i < numbers.length ; i++){
       }
 }
 }
-
-
+// task 2
+{
+      let numbers = [3, 6, 9, 12, 15, 18];
+let sum = 0 ;
+for(let i = 0 ; i < numbers.length ;i++){
+      if(numbers[i] % 3 === 0){
+            // console.log(numbers[i])
+            sum += numbers[i];
+      }
+}
+// console.log(sum)
+}
+// task 4
+{
+      let sentence = "JavaScript is powerful";
+let vowelTotal = 0 ;
+for(let i = 0 ; i < sentence.length ; i++){
+      if(sentence[i] === 'a' || sentence[i] === 'e' || sentence[i] === 'i' || sentence[i] === 'o' || sentence[i] === 'u'){
+            vowelTotal ++ ;
+      }
+}
+// console.log('vowel letter :' , vowelTotal)
+}
