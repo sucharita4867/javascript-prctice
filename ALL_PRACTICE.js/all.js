@@ -294,18 +294,38 @@ for(let i = 0 ; i < sentence.length ; i++){
       }
 }
 }
+// -------------- 19 | 06 |2025 --------------
 // task 4 (vawle and consonent chake)
+{
+      // console.clear();
 let sentence = "Learning JavaScript is really fun and powerful!";
 let vowelCount = 0 ;
 let consonantCount = 0 ;
 for(let i = 0 ; i < sentence.length ; i++){
-      let latter = sentence[i].toLowerCase();
-      if(latter >= 'a' && latter <= 'z'){
-            if(latter === 'a' || latter === 'e' || latter === 'i' || latter === 'o' || latter === 'u'){
+      let letter = sentence[i].toLowerCase();
+      if(letter >= 'a' && letter <= 'z'){
+            if(letter === 'a' || letter === 'e' || letter === 'i' || letter === 'o' || letter === 'u'){
                   vowelCount++ ;
+                  // console.log('vowel no :', letter)
             }else{
                   consonantCount ++ ;
+                  // console.log('con no :', letter)
             }
       }
-}console.log('vowel latter :', vowelCount.clea);
-console.log('consonant latter :',consonantCount);
+}
+// console.log('vowel latter :', vowelCount);
+// console.log('consonant latter :',consonantCount);
+}
+// task 1
+{
+      let numbers = [2, 5, 8, 11, 14, 17, 20];
+for(let i = 0 ; i < numbers.length ; i++){
+      if(numbers[i] > 10){
+            // console.log('big no :', numbers[i])
+      }else{
+            // console.log('no :', numbers[i])
+      }
+}
+}
+
+
