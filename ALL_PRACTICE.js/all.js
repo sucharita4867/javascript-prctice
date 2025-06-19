@@ -198,7 +198,7 @@ for(let i = 0 ; i < word.length ; i++){
       for(let i = 0 ; i < sentence.length ; i++){
       let letter = sentence[i].toLowerCase();
       // console.log(letter)
-      if(letter === 'a' || letter === 'e' || letter === 'i' || letter === 'o' || letter === 'u'){
+      if(letter > 'a' && letter < 'z' && letter !== 'e' && letter !== 'i' && letter !== 'o' && letter !== 'u'){
             count++ ;
       }
 }
@@ -284,11 +284,22 @@ for(let i = 0 ; i < numbers.length ; i++){
 }
 }
 // task 2
-let sentence = "Hello JavaScript Learners" ;
+{
+      let sentence = "Hello JavaScript Learners" ;
 // console.log(sentence.toLowerCase)
 for(let i = 0 ; i < sentence.length ; i++){
       let total = sentence[i].toLowerCase();
       if(total === 'a' || total === 'e' || total === 'i'|| total === 'o' || total === 'u'){
-            console.log('vowel letter :', total)
+            // console.log('vowel letter :', total)
       }
+}
+}
+// task 4 (vawle and consonent chake)
+let sentence = "Learning JavaScript is really fun and powerful!";
+// let pops = sentence();
+// console.log(pops)
+let sentenceNo = 0 ;
+for(let i = 0 ; i < sentence.length ; i++){
+      let latter = sentence[i].toLowerCase();
+      console.log(latter)
 }
