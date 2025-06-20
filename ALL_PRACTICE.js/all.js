@@ -350,3 +350,12 @@ for(let i = 0 ; i < sentence.length ; i++){
 }
 // console.log('vowel letter :' , vowelTotal)
 }
+// task 3
+let names = ["Rahim", "Karim", "Anik", "Rita", "Asha"];
+// console.log(names)
+for(let i = 0 ; i< names.length ; i ++){
+      // console.log(names[i])
+      if(names[i][0] === 'A'){
+            console.log(names[i])
+      }
+}
