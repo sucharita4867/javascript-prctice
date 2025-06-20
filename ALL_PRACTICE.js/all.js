@@ -372,9 +372,56 @@ for(let k = 0 ; k < numbers.length ; k++){
 }
 // --------------- 20 | 06 | 2025 ------------------
 // task 1
-let numbers = [12, 5, 8, 130, 44];
+{
+      let numbers = [12, 5, 8, 130, 44];
 for(let i = 0 ; i < numbers.length ; i++){
       if(numbers[i] > 10){
-            console.log(numbers[i])
+            // console.log(numbers[i])
       }
+}
+}
+// task 2
+{
+      let fruits = ["Apple", "Mango", "Banana", "Orange", "Grape"];
+for(let i = 0 ; i < fruits.length ; i++){
+      if(fruits[i].startsWith('O')){
+            // console.log(fruits[i])
+      }
+}
+}
+// task 3
+{
+      let ages = [3, 17, 22, 10, 8, 30];
+let total = [] ;
+for(let i = 0 ; i < ages.length ; i++){
+      if(ages[i] < 18){
+            // console.log(ages[i])
+            total.push(ages[i]);
+      }
+}
+// console.log(total)
+}
+// task 4
+{
+      let sum = 0 ;
+let nums = [2, 4, 5, 7, 9, 11, 14, 15];
+for(let i = 0 ; i < nums.length ; i++){
+      if(nums[i] % 2 === 1){
+            // console.log(nums[i])
+            sum += nums[i];
+      }
+}
+// console.log(sum)
+}
+// task 5
+{
+      let sentence = "JavaScript is very powerful and fun";
+let count = 0 ;
+for(let i = 0 ; i < sentence.length ; i++){
+      let total = sentence[i].toLowerCase();
+      if(total >= 'a' && total <= 'z') {
+      count ++ ;
+      }
+}
+// console.log(count)
 }
