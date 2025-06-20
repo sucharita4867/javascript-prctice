@@ -339,6 +339,17 @@ for(let i = 0 ; i < numbers.length ;i++){
 }
 // console.log(sum)
 }
+// task 3
+{
+      let names = ["Rahim", "Karim", "Anik", "Rita", "Asha"];
+// console.log(names)
+for(let i = 0 ; i< names.length ; i ++){
+      // console.log(names[i])
+      if(names[i][0] === 'A'){
+            // console.log(names[i])
+      }
+}
+}
 // task 4
 {
       let sentence = "JavaScript is powerful";
@@ -350,12 +361,10 @@ for(let i = 0 ; i < sentence.length ; i++){
 }
 // console.log('vowel letter :' , vowelTotal)
 }
-// task 3
-let names = ["Rahim", "Karim", "Anik", "Rita", "Asha"];
-// console.log(names)
-for(let i = 0 ; i< names.length ; i ++){
-      // console.log(names[i])
-      if(names[i][0] === 'A'){
-            console.log(names[i])
-      }
+// task 5
+let numbers = [5, 10, 15, 20, 25];
+let result = [] ;
+for(let k = 0 ; k < numbers.length ; k++){
+      result.push(numbers[k] * 2);
 }
+console.log(result);
