@@ -362,9 +362,19 @@ for(let i = 0 ; i < sentence.length ; i++){
 // console.log('vowel letter :' , vowelTotal)
 }
 // task 5
-let numbers = [5, 10, 15, 20, 25];
+{
+      let numbers = [5, 10, 15, 20, 25];
 let result = [] ;
 for(let k = 0 ; k < numbers.length ; k++){
       result.push(numbers[k] * 2);
 }
-console.log(result);
+// console.log(result);
+}
+// --------------- 20 | 06 | 2025 ------------------
+// task 1
+let numbers = [12, 5, 8, 130, 44];
+for(let i = 0 ; i < numbers.length ; i++){
+      if(numbers[i] > 10){
+            console.log(numbers[i])
+      }
+}
