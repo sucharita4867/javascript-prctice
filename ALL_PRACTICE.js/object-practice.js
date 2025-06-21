@@ -1,3 +1,4 @@
+// -------------- 20 | 06 | 25 ----------------
 // task 1
 {
       let person = {
@@ -61,3 +62,12 @@ for(let key in info){
       // console.log(key + ":" + info[key])
 }
 }
+// --------------- 21| 06 | 25 -------------------
+let person = {
+  name: "Tanisha",
+  age: 23,
+  city: "Kolkata",
+  phone: "9876543210"
+};
+console.log(person.city)
+console.log(person.phone)
