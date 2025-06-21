@@ -48,11 +48,16 @@ user.age = 30 ;
 // console.log(book)
 }
 // task 5
-let info = {
+{
+      let info = {
   brand: "Samsung",
   price: 25000,
   color: "black"
 };
-for(let i = 0 ; i < brand.lenth ; i++){
-      console.log(brand[i])
+info.malik = 'raj' ;
+info.price = 15000 ;
+info.color = 'Sky';
+for(let key in info){
+      // console.log(key + ":" + info[key])
+}
 }
