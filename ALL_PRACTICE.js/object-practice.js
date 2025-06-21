@@ -1,4 +1,6 @@
-let person = {
+// task 1
+{
+      let person = {
       name : 'rajib' ,
       age : 25 ,
       city : 'kolkata'
@@ -12,4 +14,45 @@ let person = {
       // console.log(person['name'])
 // console.log(person['age'])
 // console.log(person['city'])
+}
+}
+// task 2
+{
+      let student = {
+  name: "Rahim",
+  age: 20
+};
+student.hobby='singing';
+student.dreamplece = 'malesiye';
+student.stadyWith = 'mograhut collage';
+// console.log(student)
+// console.log(student.dreamplece)
+// console.log(student['hobby']);
+}
+// task 3
+{
+      let user = {
+  name: "Karim",
+  age: 22
+};
+user.age = 30 ;
+// console.log(user)
+}
+// task 4
+{
+      let book = {
+      Title : 'My Life',
+      Author : 'Johan',
+      Page : 500 ,
+};
+// console.log(book)
+}
+// task 5
+let info = {
+  brand: "Samsung",
+  price: 25000,
+  color: "black"
+};
+for(let i = 0 ; i < brand.lenth ; i++){
+      console.log(brand[i])
 }
