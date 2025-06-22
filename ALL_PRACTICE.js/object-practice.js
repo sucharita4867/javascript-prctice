@@ -228,17 +228,62 @@ for(let key in vawle){
 // console.log(total)
 }
 // task 2
-let items = {
+{
+      let items = {
   chocolate: 20,
   chips: 30,
   juice: 60,
   cake: 100
 };
 const vawle = Object.values(items)
-console.log(vawle)
+// console.log(vawle)
 for(let vawle in items){
-      console.log(vawle);
-      if(vawle > 50){
-            console.log(vawle)
+      // console.log(vawle);
+      if(items[vawle] > 50){
+            // console.log(vawle)
       }
+}
+}
+// task 3
+{
+      let studentProfile = {
+      name : 'roni roy',
+      roll : 10 ,
+      class : 11 ,
+      subject : ["Math", 'English', 'Science']
+}
+// console.log(studentProfile.subject)
+}
+// task 4
+{
+      let stock = {
+  rice: 5,
+  oil: 0,
+  soap: 1,
+  sugar: 3
+};
+const vawle = Object.values(stock)
+// console.log(vawle)
+for(let vawle in stock){
+      // console.log(key)
+      if(stock[vawle] <= 1){
+            // console.log(vawle)
+      }
+}
+}
+// task 5
+{
+      let movies = {
+  "Inception": 9,
+  "Titanic": 8,
+  "Joker": 7,
+  "Cats": 3
+};
+const vawle = Object.values(movies)
+// console.log(vawle)
+for(let vawle in movies){
+      if(movies[vawle] >= 8){
+            // console.log(vawle)
+      }
+}
 }
