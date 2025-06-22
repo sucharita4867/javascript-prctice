@@ -194,7 +194,8 @@ for(let key in laptop){
 }
 }
 // task 12
-let cart = {
+{
+      let cart = {
   book: 350,
   pen: 30,
   diary: 120,
@@ -202,9 +203,28 @@ let cart = {
 };
 let sumNo = 0 ;
 const vawle = Object.values(cart)
-console.log(vawle);
+// console.log(vawle);
 for(let key in vawle){
-      console.log(key);
+      // console.log(key);
       sumNo += vawle[key];
 }
-console.log(sumNo)
+// console.log(sumNo)
+}
+// ---------------- 22 | 06 | 2025 ---------------------
+// task 1
+{
+      let products = {
+  pen: 15,
+  notebook: 40,
+  bottle: 100,
+  bag: 500
+};
+let total = 0 ;
+const vawle = Object.values(products);
+for(let key in vawle){
+      // console.log(key);
+      total += vawle[key]
+}
+// console.log(total)
+}
+
