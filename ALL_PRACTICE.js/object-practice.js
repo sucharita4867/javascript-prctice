@@ -227,4 +227,18 @@ for(let key in vawle){
 }
 // console.log(total)
 }
-
+// task 2
+let items = {
+  chocolate: 20,
+  chips: 30,
+  juice: 60,
+  cake: 100
+};
+const vawle = Object.values(items)
+console.log(vawle)
+for(let vawle in items){
+      console.log(vawle);
+      if(vawle > 50){
+            console.log(vawle)
+      }
+}
