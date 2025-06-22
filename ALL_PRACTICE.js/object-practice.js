@@ -287,3 +287,10 @@ for(let vawle in movies){
       }
 }
 }
+// task 6
+let student = {
+  name: "Rifat",
+  class: "Nine",
+  subjects: ["Math", "Science", "English"]
+};
+console.log(student.subjects)
