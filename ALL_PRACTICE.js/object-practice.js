@@ -288,9 +288,13 @@ for(let vawle in movies){
 }
 }
 // task 6
-let student = {
+{
+      let student = {
   name: "Rifat",
   class: "Nine",
   subjects: ["Math", "Science", "English"]
 };
-console.log(student.subjects)
+// console.log(student.subjects.push('bengali'))
+// console.log(student.subjects)
+}
+// task 7
