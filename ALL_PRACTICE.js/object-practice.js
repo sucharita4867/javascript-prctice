@@ -298,11 +298,55 @@ for(let vawle in movies){
 // console.log(student.subjects)
 }
 // task 7
-let library = {
+{
+      let library = {
   name: "City Library",
   books: ["Physics", "Chemistry", "Biology"]
 };
-console.log('Total book :',library.books.length)
+// console.log('Total book :',library.books.length)
 for(let i = 0 ; i < library.books.length ; i++){
-      console.log(library.books[i])
+      // console.log(library.books[i])
+}
+}
+// -------------- 23 | 06 | 25 --------------------
+// task 1
+{
+      let student = {
+  name: "Rafiq",
+  class: "Ten",
+  subjects: ["Math", "English", "Physics", "Chemistry"]
+};
+// const vawle = Object.values(student.subjects)
+// console.log(vawle)
+// console.log('total subject :',student.subjects.length)
+for(let i = 0 ; i < student.subjects.length ; i++){
+      // console.log(student.subjects[i])
+}
+}
+// task 2
+{
+      let student = {
+  name: "Rafiq",
+  class: "Ten",
+  subjects: ["Math", "English", "Physics", "Chemistry"]
+};
+student.subjects.push('Biology');
+// console.log(student.subjects) 
+}
+// task 3{INCOMEPLETE}
+{
+      let school = {
+  students: [
+    { name: "Asha", age: 18 },
+    { name: "Kabir", age: 21 },
+    { name: "Sima", age: 22 }
+  ]
+};
+// console.log(school.students.name)
+for(let key in school.students){
+      // console.log(school.students[key])
+      if(school.students[key] > 20){
+            // console.log(school.students[key])
+      }
+}
 }
