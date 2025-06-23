@@ -350,3 +350,17 @@ for(let key in school.students){
       }
 }
 }
+// task 4
+let products = {
+  pen: 158,
+  notebook: 490,
+  bottle: 1009,
+  bag: 580
+};
+const vawle = Object.values(products)
+// console.log(vawle)
+let sum = 0 ;
+for(let vawle in products){
+      console.log(products[vawle])
+      sum = products[vawle] + sum
+}console.log('total :',sum)
