@@ -298,3 +298,11 @@ for(let vawle in movies){
 // console.log(student.subjects)
 }
 // task 7
+let library = {
+  name: "City Library",
+  books: ["Physics", "Chemistry", "Biology"]
+};
+console.log('Total book :',library.books.length)
+for(let i = 0 ; i < library.books.length ; i++){
+      console.log(library.books[i])
+}
