@@ -426,7 +426,9 @@ for(let i = 0 ; i < sentence.length ; i++){
 // console.log(count)
 }
 // ----------------------- 24 | 06 | 24 -------------------
+
 // task 1
+
 {
       let number = 90 ;
 if(number % 2 === 0){
@@ -435,7 +437,9 @@ if(number % 2 === 0){
       // console.log('ODD NO')
 }
 }
+
 // task 2
+
 let nums = [10, 5, 7, 20, 12]
 for(let num of nums){
       // console.log(num)
@@ -443,18 +447,22 @@ for(let num of nums){
             // console.log('big no :', num)
       }
 }
+
 // task 3
-let numbers = [4, 7, 10, 15, 20, 9];
+
+// let numbers = [4, 7, 10, 15, 20, 9];
 // console.log(numbers)
 let evenCount = 0 ;
-for(let num of numbers){
+// for(let num of numbers){
       // console.log(num)
-      if(num % 2 === 0){
-            evenCount ++ ;
-      }
-}
+      // if(num % 2 === 0){
+      //       evenCount ++ ;
+      // }
+// }
 // console.log('even no count : ', evenCount)
+
 // task 4
+
 let marks = 35 ;
 if(marks >= 80){
       // console.log('A+')
@@ -467,7 +475,9 @@ if(marks >= 80){
 }else{
       // console.log('Fail')
 }
+
 // task 5
+
 let frout = ["apple", "banana", "mango", "orange"];
 let chake = frout.includes('mango')
 // console.log(chake)
@@ -476,3 +486,38 @@ if(chake === true){
 }else{
       // console.log('Not Found Mango!')
 }
+
+// task 6
+
+let number =[5, 8, 3, 12, 7] ;
+let sum = 0 ;
+for(let num of number){
+      // console.log(num)
+      sum = num + sum ;
+}
+// console.log(sum);
+
+// task 7
+
+// let n = [1,2,3,4,5] ;
+// for(let num of n){
+//       console.log(num)
+// }
+// let n = 5;
+// for(let n = 1 ; n <= 5 ; n++){
+//       console.log(n)
+// }
+
+// task 8
+
+
+let numbers = [12, 3, 25, 7, 18];
+let big = numbers[0];
+
+for (let i = 1; i < numbers.length; i++) {
+  if (numbers[i] > big) {
+    big = numbers[i];
+  }
+}
+
+console.log("Biggest number:", big);
