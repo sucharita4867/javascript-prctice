@@ -440,6 +440,39 @@ let nums = [10, 5, 7, 20, 12]
 for(let num of nums){
       // console.log(num)
       if(num > 10){
-            console.log('big no :', num)
+            // console.log('big no :', num)
       }
+}
+// task 3
+let numbers = [4, 7, 10, 15, 20, 9];
+// console.log(numbers)
+let evenCount = 0 ;
+for(let num of numbers){
+      // console.log(num)
+      if(num % 2 === 0){
+            evenCount ++ ;
+      }
+}
+// console.log('even no count : ', evenCount)
+// task 4
+let marks = 35 ;
+if(marks >= 80){
+      // console.log('A+')
+}else if(marks >= 70){
+      // console.log('A')
+}else if(marks >= 60){
+      // console.log('B')
+}else if(marks >= 50){
+      // console.log('C')
+}else{
+      // console.log('Fail')
+}
+// task 5
+let frout = ["apple", "banana", "mango", "orange"];
+let chake = frout.includes('mango')
+// console.log(chake)
+if(chake === true){
+      // console.log('Found Mango!')
+}else{
+      // console.log('Not Found Mango!')
 }
