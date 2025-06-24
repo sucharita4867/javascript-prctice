@@ -425,3 +425,21 @@ for(let i = 0 ; i < sentence.length ; i++){
 }
 // console.log(count)
 }
+// ----------------------- 24 | 06 | 24 -------------------
+// task 1
+{
+      let number = 90 ;
+if(number % 2 === 0){
+      // console.log('EVEN NO ')
+}else{
+      // console.log('ODD NO')
+}
+}
+// task 2
+let nums = [10, 5, 7, 20, 12]
+for(let num of nums){
+      // console.log(num)
+      if(num > 10){
+            console.log('big no :', num)
+      }
+}

@@ -387,7 +387,8 @@ for(let i = 0 ; i < school.students.length ; i++){
 }
 }
 // task 2
-let store = {
+{
+      let store = {
   products: [
     { name: "Pen", quantity: 10 },
     { name: "Pencil", quantity: 0 },
@@ -395,3 +396,24 @@ let store = {
     { name: "Eraser", quantity: 0 }
   ]
 };
+for(let i = 0 ; i < store.products.length ; i++){
+      // console.log(store.products[i])
+      let product = store.products[i];
+      if(product.quantity === 0){
+            // console.log(product.name)
+      }
+}
+}
+// task 3 [INCOMPLETE]
+{
+      let library = {
+  books: [
+    { title: "Physics", author: "Newton" },
+    { title: "Biology", author: "Darwin" },
+    { title: "Math", author: "Euclid" }
+  ]
+};
+for(let i = 0 ; i < library.books.length ; i++){
+      // console.log(library.books[i])
+}
+}
