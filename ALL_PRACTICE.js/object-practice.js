@@ -351,7 +351,8 @@ for(let key in school.students){
 }
 }
 // task 4
-let products = {
+{
+      let products = {
   pen: 158,
   notebook: 490,
   bottle: 1009,
@@ -361,6 +362,36 @@ const vawle = Object.values(products)
 // console.log(vawle)
 let sum = 0 ;
 for(let vawle in products){
-      console.log(products[vawle])
+      // console.log(products[vawle])
       sum = products[vawle] + sum
-}console.log('total :',sum)
+}
+// console.log('total :',sum)
+}
+// -------- 24 | 06 | 25 ---------------
+// task 1
+{
+            let school = {
+  students: [
+    { name: "Asha", age: 18 },
+    { name: "Kabir", age: 21 },
+    { name: "Sima", age: 22 },
+    { name: "Simir", age: 26 }
+  ]
+};
+for(let i = 0 ; i < school.students.length ; i++){
+      // console.log(school.students[i])
+      let student = school.students[i]
+      if(student.age > 20){
+            // console.log(student.name)
+      }
+}
+}
+// task 2
+let store = {
+  products: [
+    { name: "Pen", quantity: 10 },
+    { name: "Pencil", quantity: 0 },
+    { name: "Notebook", quantity: 5 },
+    { name: "Eraser", quantity: 0 }
+  ]
+};
