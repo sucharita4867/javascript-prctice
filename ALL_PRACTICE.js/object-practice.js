@@ -418,7 +418,9 @@ for(let i = 0 ; i < library.books.length ; i++){
 }
 }
 // -------------- 25 | 06 | 2025 ------------
-let mobile = {
+// task 1
+{
+      let mobile = {
   brand: "Samsung",
   model: "Galaxy A52",
   price: 25000,
@@ -429,3 +431,56 @@ const vawle = Object.values(mobile);
 // console.log(vawle);
 const key = Object.keys(mobile);
 // console.log(key)
+}
+// task 2
+{
+      let user = {
+  name: "Tanvir",
+  age: 22,
+  hobbies: ["reading", "travelling", "coding"]
+};
+const vawle = Object.values(user.hobbies);
+// console.log(vawle)
+}
+// task 3
+{
+      let shop = {
+  products: [
+    { name: "Pen", price: 10 },
+    { name: "Pencil", price: 5 },
+    { name: "Notebook", price: 50 }
+  ]
+};
+for(let items of shop.products){
+      // console.log(items.name + '-' + items.price)
+}
+}
+// task 4
+{
+      let order = {
+  items: [
+    { name: "Shirt", qty: 2, price: 500 },
+    { name: "Pant", qty: 1, price: 800 }
+  ]
+};
+let grandTotal = 0 ;
+for(let item of order.items){
+      let itemTotal = item.qty * item.price;
+      // console.log(item.name + 'Total :'+ itemTotal);
+      grandTotal += itemTotal; 
+}
+// console.log('GrandTotal :', grandTotal)
+}
+// task 5
+{
+      let students = [
+  { name: "Rita", marks: 85 },
+  { name: "Anik", marks: 72 },
+  { name: "Salma", marks: 60 }
+];
+for(let student of students){
+      if(student.marks > 75){
+            // console.log(student.name)
+      }
+}
+}
