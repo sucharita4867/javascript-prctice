@@ -522,7 +522,49 @@ for (let i = 1; i < numbers.length; i++) {
 }
 // ------------------------ 25 | 06 | 2025 ----------------------
 // task 1
-let n = 7 ;
+{
+      let n = 7 ;
 for(let i = 1 ; i <= n ; i++){
-      console.log(i)
+      // console.log(i)
+}
+}
+// task 2
+{
+      let nums = [5, 8, 12, 3, 9,1];
+let smallNo = nums[0];
+for(let num of nums){
+      // console.log(num)
+      if(num < smallNo){
+            smallNo = num;
+      }
+}
+// console.log('small number :', smallNo)
+}
+// task 3
+{
+      let number = 90 ;
+if(number % 5 === 0){
+      // console.log('Divisible by 5')
+}else{
+      // console.log('divisible by not 5')
+}
+}
+// task 4
+{
+      let items = ["mango", "apple", "banana", "orange"];
+let frout = items.includes('banana')
+if(frout === true){
+      // console.log('Found Banana')
+}else{
+      // console.log('Not Found Banana')
+}
+}
+// task 5
+let numbers = [4, 7, 10, 15, 22];
+for(let i = 0 ; i < numbers.length ; i ++){
+      if(numbers[i] % 2 === 0){
+            console.log('Even no:',numbers[i])
+      }else{
+            console.log('Odd no:',numbers[i])
+      }
 }
