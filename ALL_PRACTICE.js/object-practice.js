@@ -417,3 +417,15 @@ for(let i = 0 ; i < library.books.length ; i++){
       // console.log(library.books[i])
 }
 }
+// -------------- 25 | 06 | 2025 ------------
+let mobile = {
+  brand: "Samsung",
+  model: "Galaxy A52",
+  price: 25000,
+  color: "black"
+};
+// console.log(mobile)
+const vawle = Object.values(mobile);
+// console.log(vawle);
+const key = Object.keys(mobile);
+// console.log(key)

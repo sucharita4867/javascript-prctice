@@ -560,11 +560,13 @@ if(frout === true){
 }
 }
 // task 5
-let numbers = [4, 7, 10, 15, 22];
+{
+      let numbers = [4, 7, 10, 15, 22];
 for(let i = 0 ; i < numbers.length ; i ++){
       if(numbers[i] % 2 === 0){
-            console.log('Even no:',numbers[i])
+            // console.log('Even no:',numbers[i])
       }else{
-            console.log('Odd no:',numbers[i])
+            // console.log('Odd no:',numbers[i])
       }
+}
 }
