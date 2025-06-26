@@ -555,9 +555,19 @@ car.color='blue';
 // console.log(car)
 }
 // task 7
-let fruit = {
+{
+      let fruit = {
   name: "Mango",
   price: 30
 };
 fruit.quantity = 5;
-console.log(fruit)
+// console.log(fruit)
+}
+// task 8
+let members = {
+  name: "Rita",
+  marks: 85
+};
+      if(members.marks > 80){
+            console.log('Excellent')
+      }
