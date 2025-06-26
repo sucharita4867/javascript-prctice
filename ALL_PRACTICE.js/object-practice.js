@@ -484,3 +484,14 @@ for(let student of students){
       }
 }
 }
+// ----------------- 26 | 06 | 25 -----------------
+// task 1
+let student = {
+  name: "Tanvir",
+  age: 20,
+  subjects: ["Math", "English", "Science"]
+};
+console.log('total subject :',student.subjects.length)
+for(let i = 0 ; i < student.subjects.length ; i++){
+      console.log(student.subjects[i])
+}
