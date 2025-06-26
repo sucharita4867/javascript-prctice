@@ -486,12 +486,25 @@ for(let student of students){
 }
 // ----------------- 26 | 06 | 25 -----------------
 // task 1
-let student = {
+{
+      let student = {
   name: "Tanvir",
   age: 20,
   subjects: ["Math", "English", "Science"]
 };
-console.log('total subject :',student.subjects.length)
+// console.log('total subject :',student.subjects.length)
 for(let i = 0 ; i < student.subjects.length ; i++){
-      console.log(student.subjects[i])
+      // console.log(student.subjects[i])
+}
+}
+// task 2
+{
+      let employee = {
+  name: "Rahim",
+  salary: 15000,
+  bonus: 3000,
+  fine: 500
+};
+let totalPayment = employee.salary + employee.bonus + employee.fine ;
+// console.log('total Payment :', totalPayment)
 }
