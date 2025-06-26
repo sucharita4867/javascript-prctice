@@ -508,3 +508,56 @@ for(let i = 0 ; i < student.subjects.length ; i++){
 let totalPayment = employee.salary + employee.bonus + employee.fine ;
 // console.log('total Payment :', totalPayment)
 }
+// task 3
+{
+      let students = [
+  { name: "Rita", marks: 85 },
+  { name: "Anik", marks: 72 },
+  { name: "Salma", marks: 60 },
+  { name: "Mita", marks: 90 }
+];
+for(let student of students){
+      if(student.marks > 80){
+            // console.log(student.name)
+      }
+}
+}
+// task 4
+{
+      let books = [
+  { title: "Math", pages: 120 },
+  { title: "English", pages: 100 },
+  { title: "Bangla", pages: 80 }
+];
+let totalPages = 0 ;
+for(let book of books){
+      // console.log(book.title + '-' + book.pages + ' pages')
+      totalPages += book.pages;
+}
+// console.log('total Pages :' , totalPages)
+}
+// task 5
+{
+      let person = {
+  name: "Anik",
+  age: 22
+};
+const vawle = Object.values(person);
+// console.log(vawle)
+}
+// task 6
+{
+      let car = {
+  brand: "Toyota",
+  color: "Red"
+};
+car.color='blue';
+// console.log(car)
+}
+// task 7
+let fruit = {
+  name: "Mango",
+  price: 30
+};
+fruit.quantity = 5;
+console.log(fruit)
