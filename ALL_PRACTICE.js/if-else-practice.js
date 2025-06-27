@@ -558,3 +558,37 @@ if(number > 0){
       // console.log('zero no')
 }
 }
+// task 4
+{
+      let marks = 85;
+if(marks >= 80){
+      // console.log('A+')
+}else if(marks >= 60){
+      // console.log('A')
+}else if(marks >= 40){
+      // console.log('B')
+}else if(marks >= 25){
+      // console.log('C')
+}else{
+      // console.log('Fail')
+}
+}
+// task 5
+{
+      let username = "admin";
+let password = "1234";
+if(username === 'admin' && password === '1234'){
+      // console.log('Login successful')
+}else{
+      // console.log('Invalid login')
+}
+}
+// task 6
+{
+      let year = 2024;
+if((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0){
+      // console.log('leap year')
+}else{
+      // console.log('not leap year')
+}
+}
