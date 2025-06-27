@@ -528,9 +528,20 @@ if(username === 'admin' && password === '1234'){
 }
 // ------- 27 | 06 | 25 ------------
 // task 1 
-let i = 9 ;
+{
+      let i = 9 ;
 if(i % 2 === 0 ){
-      console.log('even no')
+      // console.log('even no')
 }else{
-      console.log('odd no')
+      // console.log('odd no')
+}
+}
+// task 2
+let a = 1450, b = 25, c = 165;
+if(a > b && a > c){
+      console.log('big no is A')
+}else if(b > a && b > c){
+      console.log('big no is B')
+}else{
+      console.log('big no is C')
 }
