@@ -526,3 +526,11 @@ if(username === 'admin' && password === '1234'){
 //       console.log('b number is big')
 // }
 }
+// ------- 27 | 06 | 25 ------------
+// task 1 
+let i = 9 ;
+if(i % 2 === 0 ){
+      console.log('even no')
+}else{
+      console.log('odd no')
+}
