@@ -570,3 +570,12 @@ for(let i = 0 ; i < numbers.length ; i ++){
       }
 }
 }
+// --------- 28 | 06 | 25--------
+{
+      let numbers = [5, 8, 11, 22, 15, 30];
+for(let number of numbers){
+      if(number % 2 === 0){
+            // console.log('even no :', number) 
+      }
+}
+}
