@@ -571,6 +571,7 @@ for(let i = 0 ; i < numbers.length ; i ++){
 }
 }
 // --------- 28 | 06 | 25--------
+// task 1
 {
       let numbers = [5, 8, 11, 22, 15, 30];
 for(let number of numbers){
@@ -579,3 +580,13 @@ for(let number of numbers){
       }
 }
 }
+// task 2
+let nums = [4, 10, 12, 7, 15];
+let newArray = [ ];
+for(let num of nums){
+      // console.log(num)
+      if(num > 10){
+            newArray = num  + newArray;
+      }
+}
+console.log(newArray)
