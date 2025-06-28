@@ -581,7 +581,8 @@ for(let number of numbers){
 }
 }
 // task 2
-let nums = [4, 10, 12, 7, 15];
+{
+      let nums = [4, 10, 12, 7, 15];
 let newArray = [ ];
 for(let num of nums){
       // console.log(num)
@@ -589,4 +590,13 @@ for(let num of nums){
             newArray = num  + newArray;
       }
 }
-console.log(newArray)
+// console.log(newArray)
+}
+// task 3
+let names = ["Sima", "Rita", "Salma", "Anik"];
+for(let name of names){
+      // console.log(name)
+      if(name.startsWith('S')){
+            console.log(name)
+      }
+}
