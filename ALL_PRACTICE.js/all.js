@@ -593,10 +593,22 @@ for(let num of nums){
 // console.log(newArray)
 }
 // task 3
-let names = ["Sima", "Rita", "Salma", "Anik"];
+{
+      let names = ["Sima", "Rita", "Salma", "Anik"];
 for(let name of names){
       // console.log(name)
       if(name.startsWith('S')){
-            console.log(name)
+            // console.log(name)
       }
 }
+}
+// task 4
+let numbers = [12, 45, 3, 78, 22];
+let heiggestNo = numbers[0] ;
+for(let number of numbers){
+      console.log(number)
+      if(number > heiggestNo){
+            heiggestNo = number
+      }
+}
+// console.log('big no :', heiggestNo)
