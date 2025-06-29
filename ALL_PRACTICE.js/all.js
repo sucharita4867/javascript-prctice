@@ -603,12 +603,22 @@ for(let name of names){
 }
 }
 // task 4
-let numbers = [12, 45, 3, 78, 22];
+{
+      let numbers = [12, 45, 3, 78, 22];
 let heiggestNo = numbers[0] ;
 for(let number of numbers){
-      console.log(number)
+      // console.log(number)
       if(number > heiggestNo){
             heiggestNo = number
       }
 }
 // console.log('big no :', heiggestNo)
+}
+// ----------- 29 | 06 | 25 ------------
+// task 1
+let nums = [6, 8, 9, 13, 15];
+for(let i = 0 ; i < nums.length ; i++){
+      // console.log(nums[i])
+}
+// task 2
+let friends = ["Anu", "Rita", "Salman", "Puja"];
