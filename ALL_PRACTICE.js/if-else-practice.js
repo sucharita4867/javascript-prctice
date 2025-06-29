@@ -604,3 +604,22 @@ if(num > 0){
       // console.log('zero')
 }
 }
+// task 2
+{
+      let a = 200;
+let b = 35;
+if(a > b){
+      // console.log('a number is big')
+}else if(b > a){
+      // console.log('b number is big')
+}
+}
+// task 3
+{
+      let marks = 95;
+if(marks > 70){
+      // console.log('pass')
+}else{
+      // console.log('fail')
+}
+}
