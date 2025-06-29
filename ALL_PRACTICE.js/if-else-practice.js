@@ -623,3 +623,31 @@ if(marks > 70){
       // console.log('fail')
 }
 }
+// task 4
+{
+      let username = "admin";
+let password = "1234";
+if(username === 'admin' && password === '1234'){
+      // console.log('Login Successful')
+}else{
+      // console.log('Login Is Not Successful')
+}
+}
+// task 5
+{
+      let year = 2020;
+if((year % 4 === 0) && (year % 100 !== 0 || year % 400 === 0)){
+      // console.log('leap year')
+}else{
+      // console.log('not a leap year')
+}
+}
+// task 6
+let a = 10, b = 5, c = 15;
+if(a < b && a < c){
+      console.log('a number is small')
+}else if(b < a && b < c){
+      console.log('b number is small')
+}else{
+      console.log('c number is small')
+}
