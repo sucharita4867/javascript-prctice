@@ -638,10 +638,30 @@ for(let i = 0 ; i < nums.length ; i ++){
 // console.log(newArray)
 }
 // task 3
-let numbers = [11, 22, 33, 44, 55, 66];
+{
+      let numbers = [11, 22, 33, 44, 55, 66];
 for(let i = 0 ; i < numbers.length ; i++){
       // console.log(numbers[i])
       if(i % 2 === 0){
-            console.log(numbers[i])
+            // console.log(numbers[i])
+      }
+}
+}
+// task 4
+{
+      let numbers = [5, 12, 60, 45, 100];
+for(let number of numbers){
+      if(number > 10 && number < 50){
+            // console.log('in range')
+      }else{
+            // console.log('out of range')
+      }
+}
+}
+// task 5
+let nums = [10, 15, 20, 25, 30];
+for(let i = 0 ; i < nums.length ; i++){
+      if(nums[i] % 5 === 0 && nums[i] % 2 === 0){
+            console.log(nums[i])
       }
 }
