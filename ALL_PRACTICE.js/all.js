@@ -614,11 +614,12 @@ for(let number of numbers){
 }
 // console.log('big no :', heiggestNo)
 }
-// ----------- 29 | 06 | 25 ------------
+// ----------- 30 | 06 | 25 ------------
 // task 1
-let nums = [6, 8, 9, 13, 15];
-for(let i = 0 ; i < nums.length ; i++){
-      // console.log(nums[i])
+let numbers = [3, 6, 9, 12, 15, 18];
+for(let number of numbers){
+      // console.log(number)
+      if(number % 2 === 0){
+            console.log('even number :', number)
+      }
 }
-// task 2
-let friends = ["Anu", "Rita", "Salman", "Puja"];

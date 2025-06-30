@@ -643,11 +643,13 @@ if((year % 4 === 0) && (year % 100 !== 0 || year % 400 === 0)){
 }
 }
 // task 6
-let a = 10, b = 5, c = 15;
+{
+      let a = 10, b = 5, c = 15;
 if(a < b && a < c){
-      console.log('a number is small')
+      // console.log('a number is small')
 }else if(b < a && b < c){
-      console.log('b number is small')
+      // console.log('b number is small')
 }else{
-      console.log('c number is small')
+      // console.log('c number is small')
+}
 }
