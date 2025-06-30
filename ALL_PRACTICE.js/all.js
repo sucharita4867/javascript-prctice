@@ -616,10 +616,32 @@ for(let number of numbers){
 }
 // ----------- 30 | 06 | 25 ------------
 // task 1
-let numbers = [3, 6, 9, 12, 15, 18];
+{
+      let numbers = [3, 6, 9, 12, 15, 18];
 for(let number of numbers){
       // console.log(number)
       if(number % 2 === 0){
-            console.log('even number :', number)
+            // console.log('even number :', number)
+      }
+}
+}
+// task 2
+{
+      let nums = [4, 10, 12, 7, 15];
+let newArray = [] ;
+for(let i = 0 ; i < nums.length ; i ++){
+      // console.log(nums[i])
+      if(nums[i] > 10){
+            newArray.push(nums[i])
+      }
+}
+// console.log(newArray)
+}
+// task 3
+let numbers = [11, 22, 33, 44, 55, 66];
+for(let i = 0 ; i < numbers.length ; i++){
+      // console.log(numbers[i])
+      if(i % 2 === 0){
+            console.log(numbers[i])
       }
 }
