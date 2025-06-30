@@ -659,9 +659,22 @@ for(let number of numbers){
 }
 }
 // task 5
-let nums = [10, 15, 20, 25, 30];
+{
+      let nums = [10, 15, 20, 25, 30];
 for(let i = 0 ; i < nums.length ; i++){
       if(nums[i] % 5 === 0 && nums[i] % 2 === 0){
-            console.log(nums[i])
+            // console.log(nums[i])
+      }
+}
+}
+// task 6
+let nums = [0, 2, 5, 8, 0];
+for(let num of nums){
+      if(num === 0){
+            console.log('zero no')
+      }else if(num % 2 === 0){
+            console.log('even no')
+      }else{
+            console.log('odd no')
       }
 }
