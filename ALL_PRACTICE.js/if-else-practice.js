@@ -653,3 +653,13 @@ if(a < b && a < c){
       // console.log('c number is small')
 }
 }
+// task 7
+let num = 0 ;
+if(num > 0){
+      console.log('positive no')
+}else if(num < 0){
+      console.log('negative no')
+}
+else{
+      console.log('zero')
+}
