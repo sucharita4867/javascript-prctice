@@ -690,3 +690,21 @@ for(let number of numbers){
       }
 }
 }
+// task 2
+{
+      let names = ["Rita", "Salman", "Tania", "Sajib", "Anu"];
+for(let i = 0 ; i < names.length ; i++){
+      if(names[i].length > 4 ){
+            console.log(names[i])
+      }
+}
+}
+// task 3
+{
+      let nums = [10, 20, 30, 25, 40];
+for(let i = 0 ; nums.length ; i++){
+      if(nums[i] % 10 === 0 && nums[i] % 2 !== 0){
+            // console.log('special')
+      }
+}
+}
