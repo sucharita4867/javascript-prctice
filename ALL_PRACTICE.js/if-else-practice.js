@@ -654,12 +654,21 @@ if(a < b && a < c){
 }
 }
 // task 7
-let num = 0 ;
+{
+      let num = 0 ;
 if(num > 0){
-      console.log('positive no')
+      // console.log('positive no')
 }else if(num < 0){
-      console.log('negative no')
+      // console.log('negative no')
 }
 else{
-      console.log('zero')
+      // console.log('zero')
+}
+}
+// task 8
+let i = 201 ;
+if(i % 2 === 0){
+      console.log('even no')
+}else{
+      console.log('odd no')
 }
