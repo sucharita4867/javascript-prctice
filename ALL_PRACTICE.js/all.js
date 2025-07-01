@@ -668,13 +668,25 @@ for(let i = 0 ; i < nums.length ; i++){
 }
 }
 // task 6
-let nums = [0, 2, 5, 8, 0];
+{
+      let nums = [0, 2, 5, 8, 0];
 for(let num of nums){
       if(num === 0){
-            console.log('zero no')
+            // console.log('zero no')
       }else if(num % 2 === 0){
-            console.log('even no')
+            // console.log('even no')
       }else{
-            console.log('odd no')
+            // console.log('odd no')
       }
+}
+}
+// ------- 01 | 07 | 25 ---------
+// task 1
+{
+      let numbers = [2, 8, 5, 12, 7, 6];
+for(let number of numbers){
+      if(number > 5 && number % 2 === 0){
+            // console.log(number)
+      }
+}
 }
