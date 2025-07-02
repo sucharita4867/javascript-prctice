@@ -698,11 +698,21 @@ if(num >= 80){
 }
 }
 // task 3
-let number = 0 ;
+{
+      let number = 0 ;
 if(number > 0){
-      console.log('posative no')
+      // console.log('posative no')
 }else if(number < 0){
-      console.log('negative no')
+      // console.log('negative no')
 }else{
-      console.log('zero no')
+      // console.log('zero no')
+}
+}
+// task 4
+let num = 'admin' ;
+let password = '12345' ;
+if(num === 'admin' && password === '12345'){
+      console.log('login success full')
+}else{
+      console.log('login is not success full')
 }
