@@ -666,7 +666,17 @@ else{
 }
 }
 // task 8
-let i = 201 ;
+{
+      let i = 201 ;
+if(i % 2 === 0){
+      // console.log('even no')
+}else{
+      // console.log('odd no')
+}
+}
+// ---- 02 | 07 | 25 -----
+// task 1
+let i = 90 ;
 if(i % 2 === 0){
       console.log('even no')
 }else{
