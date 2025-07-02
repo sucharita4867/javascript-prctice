@@ -676,9 +676,22 @@ if(i % 2 === 0){
 }
 // ---- 02 | 07 | 25 -----
 // task 1
-let i = 90 ;
+{
+      let i = 90 ;
 if(i % 2 === 0){
-      console.log('even no')
+      // console.log('even no')
 }else{
-      console.log('odd no')
+      // console.log('odd no')
+}
+}
+// task 2
+let num = 70 ;
+if(num >= 80){
+      console.log('A+')
+}else if(num >= 60){
+      console.log('B')
+}else if(num >= 25){
+      console.log('C')
+}else{
+      console.log('Fail')
 }
