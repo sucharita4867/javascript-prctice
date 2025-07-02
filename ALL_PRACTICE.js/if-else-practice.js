@@ -685,13 +685,24 @@ if(i % 2 === 0){
 }
 }
 // task 2
-let num = 70 ;
+{
+      let num = 70 ;
 if(num >= 80){
-      console.log('A+')
+      // console.log('A+')
 }else if(num >= 60){
-      console.log('B')
+      // console.log('B')
 }else if(num >= 25){
-      console.log('C')
+      // console.log('C')
 }else{
-      console.log('Fail')
+      // console.log('Fail')
+}
+}
+// task 3
+let number = 0 ;
+if(number > 0){
+      console.log('posative no')
+}else if(number < 0){
+      console.log('negative no')
+}else{
+      console.log('zero no')
 }
