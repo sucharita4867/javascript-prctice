@@ -709,10 +709,19 @@ if(number > 0){
 }
 }
 // task 4
-let num = 'admin' ;
+{
+      let num = 'admin' ;
 let password = '12345' ;
 if(num === 'admin' && password === '12345'){
-      console.log('login success full')
+      // console.log('login success full')
 }else{
-      console.log('login is not success full')
+      // console.log('login is not success full')
+}
+}
+// task 5
+let age = 16;
+if(age > 18){
+      console.log('adult')
+}else{
+      console.log('not adult')
 }
