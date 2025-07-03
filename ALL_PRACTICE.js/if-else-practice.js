@@ -728,11 +728,23 @@ if(age > 18){
 }
 }
 // task 7
-let a = 10, b = 25, c = 20;
+{
+      let a = 10, b = 25, c = 20;
 if(a > b && a > c){
-      console.log('big number is A')
+      // console.log('big number is A')
 }else if(b > a && b > c){
-      console.log('big number is B')
+      // console.log('big number is B')
 }else{
-      console.log('big number is C')
+      // console.log('big number is C')
 }
+}
+// task 8
+{
+      let number = 7;
+if(number % 2 === 0){
+      // console.log('Even number')
+}else{
+      // console.log('Odd number')
+}
+}
+// task 8
