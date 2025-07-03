@@ -719,9 +719,20 @@ if(num === 'admin' && password === '12345'){
 }
 }
 // task 5
-let age = 16;
+{
+      let age = 16;
 if(age > 18){
-      console.log('adult')
+      // console.log('adult')
 }else{
-      console.log('not adult')
+      // console.log('not adult')
+}
+}
+// task 7
+let a = 10, b = 25, c = 20;
+if(a > b && a > c){
+      console.log('big number is A')
+}else if(b > a && b > c){
+      console.log('big number is B')
+}else{
+      console.log('big number is C')
 }
