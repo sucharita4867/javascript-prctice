@@ -748,3 +748,15 @@ if(number % 2 === 0){
 }
 }
 // task 8
+{
+      let number = 30;
+if(number > 80){
+      // console.log('A+')
+}else if(number > 60){
+      // console.log('B')
+}else if(number > 40){
+      // console.log('C')
+}else{
+      // console.log('Fail')
+}
+}
