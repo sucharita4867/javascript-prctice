@@ -771,9 +771,20 @@ if(num % 2 === 0){
 let a = 2;
 let b = 23;
 if(a > b){
-      console.log('a is big',a)
+      // console.log('a is big',a)
 }else if(b > a){
-      console.log('b is big', b)
+      // console.log('b is big', b)
 }else{
-      console.log('error')
+      // console.log('error')
+}
+// task 3
+let marks = 309;
+if(marks > 80){
+      console.log('A+')
+}else if(marks > 60){
+      console.log('B+')
+}else if(marks > 40){
+      console.log('C+')
+}else{
+      console.log('Fail')
 }
