@@ -760,3 +760,10 @@ if(number > 80){
       // console.log('Fail')
 }
 }
+// task 1 
+let num = 3 ;
+if(num % 2 === 0){
+      console.log('even')
+}else{
+      console.log('odd')
+}
