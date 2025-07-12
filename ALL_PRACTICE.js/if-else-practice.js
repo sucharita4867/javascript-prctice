@@ -780,11 +780,22 @@ if(a > b){
 // task 3
 let marks = 309;
 if(marks > 80){
-      console.log('A+')
+      // console.log('A+')
 }else if(marks > 60){
-      console.log('B+')
+      // console.log('B+')
 }else if(marks > 40){
-      console.log('C+')
+      // console.log('C+')
 }else{
-      console.log('Fail')
+      // console.log('Fail')
+}
+// task 4
+let A = 30 ;
+let B = 309 ;
+let C = 3120 ;
+if(A > B && A > C){
+      console.log('A number is big')
+}else if(B > C && B > A){
+      console.log('B number is big')
+}else {
+      console.log('C number is big')
 }
