@@ -763,7 +763,17 @@ if(number > 80){
 // task 1 
 let num = 3 ;
 if(num % 2 === 0){
-      console.log('even')
+      // console.log('even')
 }else{
-      console.log('odd')
+      // console.log('odd')
+}
+// task 2
+let a = 2;
+let b = 23;
+if(a > b){
+      console.log('a is big',a)
+}else if(b > a){
+      console.log('b is big', b)
+}else{
+      console.log('error')
 }
