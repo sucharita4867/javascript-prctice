@@ -789,13 +789,22 @@ if(marks > 80){
       // console.log('Fail')
 }
 // task 4
-let A = 30 ;
+{
+      let A = 30 ;
 let B = 309 ;
 let C = 3120 ;
 if(A > B && A > C){
-      console.log('A number is big')
+      // console.log('A number is big')
 }else if(B > C && B > A){
-      console.log('B number is big')
+      // console.log('B number is big')
 }else {
-      console.log('C number is big')
+      // console.log('C number is big')
+}
+}
+// task 1
+let i = 90 ;
+if(i % 2 === 0){
+      console.log("even no", i)
+}else {
+      console.log("odd no", i)
 }
