@@ -804,7 +804,15 @@ if(A > B && A > C){
 // task 1
 let i = 90 ;
 if(i % 2 === 0){
-      console.log("even no", i)
+      // console.log("even no", i)
 }else {
-      console.log("odd no", i)
+      // console.log("odd no", i)
+}
+// task 2
+let j = 9;
+let h = 20;
+if(j > h){
+      console.log('this is big no j')
+}else{
+      console.log('this is big number h')
 }
