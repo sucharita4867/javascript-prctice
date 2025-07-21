@@ -819,11 +819,18 @@ if(j > h){
 // task 3
 let mask= 20 ;
 if(marks> 80){
-      console.log('A+')
+      // console.log('A+')
 }else if(marks > 60){
-      console.log("B+")
+      // console.log("B+")
 }else if(marks > 40){
-      console.log('c')
+      // console.log('c')
 }else{
-      console.log('Fail')
+      // console.log('Fail')
+}
+// task 4
+let number = 20 ;
+if(number > 50){
+      console.log('big number', number)
+}else{
+      console.log('small number', number)
 }
